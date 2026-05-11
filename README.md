@@ -2,6 +2,8 @@
 
 [English](README_en.md)
 
+![Modern Wellness Wiki](cover.jpg)
+
 一个基于循证医学的全因死亡率知识库。
 
 ---
