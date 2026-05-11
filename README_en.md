@@ -1,5 +1,7 @@
 # Modern Wellness Wiki
 
+[中文](README.md)
+
 An evidence-based knowledge base on all-cause mortality.
 
 ---
