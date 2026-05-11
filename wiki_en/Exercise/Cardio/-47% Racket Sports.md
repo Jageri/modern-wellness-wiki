@@ -9,7 +9,7 @@ Among all exercise types, racket sports (badminton, table tennis, tennis) show t
 
 ## Evidence
 - UK Biobank study (80,306 participants, mean follow-up 9 years): Racket sports associated with -47% all-cause mortality and -56% cardiovascular mortality
-- Comparison: Swimming -28%, aerobics -27%, cycling -15%, running -13% (weaker running effect may be due to inclusion of high-intensity competitive runners in the sample)
+- Comparison: Swimming -28%, aerobics -27%, cycling -15% (running did not show a significant association in this study)
 - Badminton is especially worth promoting in China: easily accessible courts, strong social component, suitable for all ages
 - Mechanism: Intermittent high intensity + hand-eye coordination (cognitive stimulation) + social interaction (psychological protection)
 
