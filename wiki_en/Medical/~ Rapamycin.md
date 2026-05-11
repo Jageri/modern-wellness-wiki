@@ -1,6 +1,6 @@
 # Rapamycin
 
-**Mortality Impact**: Extends lifespan by 10–25% in animal studies; human data limited to organ transplant patients
+**Mortality Impact**: Extends lifespan by 9–14% in animal studies; human data limited to organ transplant patients
 **Evidence Level**: ⭐⭐⭐ (Causal evidence in animal studies; insufficient human lifespan data)
 **Actionability**: Very Low (Prescription drug; anti-aging use is off-label)
 
@@ -8,7 +8,7 @@
 Rapamycin is currently the most potent anti-aging drug in animal studies—and the only lifespan-extending molecule consistently validated across multiple species. However, its side effects as an immunosuppressant cannot be overlooked. The Dog Aging Project (RAPA trial) results will be a key turning point.
 
 ## Evidence
-- Mouse studies: Rapamycin extends lifespan by 10–25% across multiple mouse strains (including when started in old age)
+- Mouse studies: Rapamycin extends lifespan by 9–14% across multiple mouse strains (including when started in old age)
 - Other species: Lifespan-extending effects demonstrated in yeast, nematodes, and fruit flies
 - Mechanism: Inhibits mTOR pathway → promotes autophagy → reduces protein aggregation → delays cellular aging
 - Peter Attia's personal use: Cyclical dosing (not continuous), claims observed improvements in immune and inflammatory markers

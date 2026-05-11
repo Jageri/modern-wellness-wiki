@@ -8,7 +8,7 @@
 VO2 max (maximal oxygen uptake) is the gold standard for measuring cardiorespiratory fitness and one of the strongest predictors of all-cause mortality. It has stronger predictive power than traditional risk factors such as blood pressure, cholesterol, and smoking. Good news: it can be significantly improved through training.
 
 ## Evidence
-- Cooper Institute study (66,371 participants): Those in the lowest 20% of VO2 max vs the highest 20% had ~400% increased mortality
+- Mandsager study (122,007 participants): Those in the lowest fitness group vs the highest had ~400% increased mortality
 - Importance ranking: VO2 max > smoking > diabetes > coronary heart disease (by mortality hazard ratio)
 - Each 1 MET increase (~3.5 mL/kg/min) reduces mortality by ~12–15%
 - VO2 max naturally declines ~10% per decade, accelerating to 15% after age 50
