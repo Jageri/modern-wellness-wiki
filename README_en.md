@@ -102,4 +102,4 @@ This project was inspired by [geekan/HowToLiveLonger](https://github.com/geekan/
 
 ## License
 
-MIT
+[CC BY-SA 4.0](LICENSE)

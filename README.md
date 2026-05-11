@@ -102,4 +102,4 @@
 
 ## License
 
-MIT
+[CC BY-SA 4.0](LICENSE)
