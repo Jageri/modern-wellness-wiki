@@ -5,23 +5,21 @@
 **Actionability**: Very High
 
 ## Conclusion
-Breathing exercises are a zero-cost health intervention that can be done anytime, anywhere. Blood pressure-lowering effects are supported by RCTs, and they also benefit anxiety and sleep. Peter Attia includes them in the Outlive exercise training system.
+Breathing exercises are a zero-cost, anytime health intervention. Inspiratory muscle training (IMT) has meta-analysis-supported blood pressure-lowering effects.
 
 ## Evidence
-- Hypertension meta-analysis: Breathing exercises (especially Inspiratory Muscle Training) can reduce systolic blood pressure by 5–10 mmHg
+- 2023 Frontiers in Cardiovascular Medicine meta-analysis (7 RCTs, 228 hypertensive patients): IMT reduced systolic blood pressure by approximately -12.55 mmHg (95% CI -15.78 to -9.33) [1]
+- 2024 systematic review: Breathing exercises (including slow breathing, yoga breathing) about 3 times/week reduced SBP by approximately 11 mmHg [2]
 - Mechanism: Slow breathing → vagal nerve activation → parasympathetic dominance → blood pressure decrease, heart rate variability increase
-- 5-5-5 breathing exercise RCT: 5 minutes daily, systolic blood pressure reduced by ~9 mmHg after 6 weeks
-- Anxiety/stress: The 4-7-8 breathing technique can rapidly lower cortisol levels
-- Peter Attia's recommendation: Inspiratory muscle trainer (e.g., POWERbreathe), 30 breaths daily
-- Sleep: Breathing exercises improve sleep quality by reducing sympathetic arousal before sleep onset
+- **Note**: Studies have small sample sizes (n=228), conducted primarily in hypertensive patients; long-term mortality data are lacking
+- **Conflict of interest note**: Some breathing devices (e.g., POWERbreathe, Resperate) were studied with manufacturer funding; effect sizes may be overestimated
 
 ## Do
 1. **4-7-8 breathing**: Inhale 4 seconds → hold 7 seconds → exhale 8 seconds, 2–3 times daily
 2. **Box breathing**: Inhale 4 seconds → hold 4 seconds → exhale 4 seconds → hold 4 seconds; suitable for stressful situations
-3. **Inspiratory muscle training**: Use a breathing trainer, 30 breaths daily; blood pressure effects visible after 6 weeks
-4. **Nasal breathing**: Breathe through your nose as much as possible during daily activities (rather than mouth breathing); improves sleep and exercise performance
-5. 5 minutes daily is sufficient—no need for prolonged meditation
+3. **Nasal breathing**: Breathe through your nose as much as possible; improves sleep and exercise performance
+4. 5–10 minutes daily is sufficient
 
 ## References
-- Xiong L et al. An overview of yoga and breathing exercises for hypertension. J Clin Hypertens. 2019.
-- Anderson DE et al. Device-guided slow breathing reduces blood pressure. J Clin Hypertens. 2016.
+1. [Li C et al. Effects of inspiratory muscle training in patients with hypertension: a meta-analysis. Front Cardiovasc Med. 2023;10:1113509.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10270119/)
+2. [Garg P et al. Effect of breathing exercises on blood pressure and heart rate: A systematic review and meta-analysis. Int J Cardiol Cardiovasc Risk Prev. 2024;20:200232.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10765252/)
