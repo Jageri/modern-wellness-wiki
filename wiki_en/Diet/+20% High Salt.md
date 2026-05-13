@@ -28,3 +28,6 @@
 - Persistent hypertension (>140/90 mmHg)
 - Recurrent edema
 - Poorly controlled hypertension despite medication
+
+## References
+- [1] O'Donnell MJ et al. Global and regional effects of potentially modifiable risk factors associated with acute stroke in 32 countries (INTERSTROKE). Lancet. 2016;388:761-775. https://pubmed.ncbi.nlm.nih.gov/27431356/
