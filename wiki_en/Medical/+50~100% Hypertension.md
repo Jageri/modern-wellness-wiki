@@ -28,3 +28,6 @@ Salt restriction + exercise + weight loss + medications as prescribed. Don't sto
 - Blood pressure >180/120 mmHg
 - Headache, vomiting, blurred vision
 - Sudden blood pressure elevation with chest pain
+
+## References
+- [1] Ettehad D et al. Blood pressure lowering for prevention of cardiovascular disease and death: a systematic review and meta-analysis. Lancet. 2016;387:957-967. https://pubmed.ncbi.nlm.nih.gov/26724178/
