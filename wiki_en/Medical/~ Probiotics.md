@@ -26,3 +26,6 @@ Prioritize obtaining probiotics from fermented foods (yogurt, kimchi, miso). Pro
 ## Medical Red Flags
 - Chronic diarrhea, bloody stool
 - Immunocompromised individuals should not self-supplement
+
+## References
+- [1] Hill C et al. The International Scientific Association for Probiotics and Prebiotics consensus statement on the scope and appropriate use of the term probiotic. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. https://pubmed.ncbi.nlm.nih.gov/24912386/
