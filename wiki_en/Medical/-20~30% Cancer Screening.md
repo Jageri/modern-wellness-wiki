@@ -27,3 +27,8 @@ Lung cancer (low-dose CT for high-risk groups), colonoscopy (starting at age 45)
 ## Medical Red Flags
 - Unexplained weight loss, persistent cough, bloody stool, abnormal bleeding
 - Abnormal findings requiring follow-up on health checkups
+
+## References
+- [1] NLST Research Team. Reduced Lung-Cancer Mortality with Low-Dose Computed Tomographic Screening. N Engl J Med. 2011;365:395-409. https://pubmed.ncbi.nlm.nih.gov/21714641/
+- [2] Brenner H et al. Protection from colorectal cancer after colonoscopy: a population-based, case-control study. Ann Intern Med. 2011;154:22-30.
+- [3] Bretthauer M et al. Effect of Colonoscopy Screening on Risks of Colorectal Cancer and Related Death. N Engl J Med. 2022;387:1547-1556. https://pubmed.ncbi.nlm.nih.gov/36214590/
