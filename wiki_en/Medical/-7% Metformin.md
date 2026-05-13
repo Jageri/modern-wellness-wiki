@@ -23,5 +23,5 @@ Metformin is currently one of the "potential anti-aging drugs" with the stronges
 4. If interested in anti-aging, prioritize exercise, diet, and sleep—these have stronger evidence
 
 ## References
-- Effect of intensive blood-glucose control with metformin on complications in overweight patients with type 2 diabetes (UKPDS 34). Lancet. 1998.
-- Barzilai N et al. Metformin as a Tool to Target Aging. Cell Metab. 2016.
+- [1] UKPDS Group. Effect of intensive blood-glucose control with metformin on complications in overweight patients with type 2 diabetes (UKPDS 34). Lancet. 1998;352:854-865. https://pubmed.ncbi.nlm.nih.gov/9742977/
+- [2] Barzilai N et al. Metformin as a Tool to Target Aging. Cell Metab. 2016;24:310-314. https://pubmed.ncbi.nlm.nih.gov/27304507/
