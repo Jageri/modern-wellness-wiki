@@ -28,3 +28,6 @@ LDL-C is the key metric. Exercise + dietary control + statins when necessary. Do
 - LDL-C >4.9 mmol/L
 - Existing cardiovascular disease
 - Severe muscle soreness after starting statins
+
+## References
+- [1] CTT Collaboration. Efficacy and safety of more intensive lowering of LDL cholesterol: a meta-analysis of data from 170,000 participants in 26 randomised trials. Lancet. 2010;376:1670-1681. https://pubmed.ncbi.nlm.nih.gov/21067804/
