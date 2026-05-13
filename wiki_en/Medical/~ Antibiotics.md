@@ -27,3 +27,6 @@ Use only for bacterial infections, complete the full course, follow medical advi
 - No improvement after 3 days of medication
 - Severe allergic reaction (rash, difficulty breathing)
 - Severe diarrhea after medication (possible Clostridioides difficile infection)
+
+## References
+- [1] Murray CJL et al. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. Lancet. 2022;399:629-655. https://pubmed.ncbi.nlm.nih.gov/35065702/
