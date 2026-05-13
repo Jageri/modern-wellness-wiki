@@ -25,4 +25,4 @@ Rapamycin is currently the most potent anti-aging drug in animal studies—and t
 
 ## References
 - [1] Harrison DE et al. Rapamycin fed late in life extends lifespan in genetically heterogeneous mice. Nature. 2009;460:392-395. https://pubmed.ncbi.nlm.nih.gov/19587680/
-- [2] Kaeberlein M et al. Rapamycin and ageing: when, for how long, and how much? J Genet Genomics. 2014;41:459-463. https://pubmed.ncbi.nlm.nih.gov/25091474/
+- [2] Kaeberlein M et al. Rapamycin and ageing: when, for how long, and how much? J Genet Genomics. 2014;41:459-463. https://pubmed.ncbi.nlm.nih.gov/25269671/
