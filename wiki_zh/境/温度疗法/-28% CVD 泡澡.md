@@ -1,6 +1,6 @@
 # 泡澡
 
-**死亡率影响**: 心血管疾病风险 -28%，中风风险 -26%（每天泡澡者 vs 每周 ≤2 次）
+**心血管疾病风险**: 发病率 -28%，中风发病率 -26%（每天泡澡者 vs 每周 ≤2 次）
 **证据等级**: ⭐⭐⭐（前瞻性队列研究）
 **可操作性**: 极高
 
@@ -8,12 +8,17 @@
 热水浴的健康机制与桑拿高度重叠——通过热暴露改善血管功能。没有桑拿条件时，热水浴是有效的替代方案。
 
 ## 证据
-- 日本 JPHC 研究（30,076 人，20 年随访）：每天泡澡者 vs 每周 ≤2 次者，心血管疾病风险 -28%，中风风险 -26%
-- **注意**：上述数据为心血管疾病风险，非全因死亡率。泡澡对全因死亡率的直接影响尚缺乏独立研究
-- 温度效应：热水（41°C+）比温水效果更强
+- 日本 JPHC 研究（30,076 人，19 年随访，1990-2009）：每天泡澡者 vs 每周 ≤2 次者，心血管疾病发病风险 -28%（HR 0.72, 95% CI 0.62-0.84），中风发病风险 -26%（HR 0.74, 95% CI 0.62-0.87）
+- **注意**：上述数据为心血管疾病**发病**风险，非死亡率。该研究主要结局指标为 CVD 发病率（incident CVD），泡澡对全因死亡率的直接影响尚缺乏独立研究
+- 温度：该研究中日本泡澡水温通常为 40-41.6°C（104-107°F），统计上未发现水温对结果的显著影响。但从热暴露机制推断，40°C 以上的水温可能是必要条件
 - 机制：与桑拿类似——热暴露→血管扩张→血压降低→心脏负荷模拟运动
 - 额外收益：改善睡眠质量（泡澡后核心体温先升后降，促进入睡）
 - 2019 Meta 分析：睡前 1-2 小时热水浴（40-42.5°C）可缩短入睡时间约 10 分钟
+
+## 注意
+- 该研究人群为日本中年人（40-59 岁），结果在其他人种/年龄段的推广性尚需验证
+- 不稳定心绞痛、未控制的高血压、严重心脏病患者应避免热水浴
+- 70 岁以上血压偏低者（收缩压约 110 mmHg 以下）需谨慎，水温不宜过高
 
 ## 做
 1. 每天或隔天 1 次热水浴，每次 15-20 分钟
@@ -23,5 +28,5 @@
 5. 泡澡后补充水分
 
 ## 参考文献
-- Ikehara S et al. Bathing frequency and all-cause and cardiovascular mortality. Heart. 2020.
-- Haghayegh S et al. Before-bedtime passive body heating by warm shower or bath to improve sleep. Sleep Med Rev. 2019.
+- Ukai T, Iso H et al. Habitual tub bathing and risks of incident coronary heart disease and stroke. Heart. 2020 May;106(10):732-737. PMID: 32209614. DOI: 10.1136/heartjnl-2019-315752.
+- Haghayegh S et al. Before-bedtime passive body heating by warm shower or bath to improve sleep: A systematic review and meta-analysis. Sleep Med Rev. 2019 Aug;46:124-135. PMID: 31091416.
