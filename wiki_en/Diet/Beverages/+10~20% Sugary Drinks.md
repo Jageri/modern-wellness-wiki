@@ -8,8 +8,9 @@
 Don't drink them. Liquid sugar is the fastest-absorbing and most easily over-consumed form of sugar.
 
 ## Evidence
-- JAMA Internal Medicine: 1 sugary drink per day → all-cause mortality +7%
-- 2+ drinks per day: all-cause mortality +21%
+- Circulation (Malik et al., 2019): 1–2 sugary drinks per day → all-cause mortality +14% (HR 1.14, 95%CI 1.09–1.19)
+- 2+ drinks per day: all-cause mortality +21% (HR 1.21, 95%CI 1.13–1.28)
+- Dose-response meta-analysis (Advances in Nutrition, 2021): each additional serving/day → all-cause mortality +8% (HR 1.08, 95%CI 1.04–1.12)
 - Liquid sugar doesn't trigger satiety signals, making overconsumption easy
 - Significantly associated with obesity, type 2 diabetes, cardiovascular disease, and gout
 

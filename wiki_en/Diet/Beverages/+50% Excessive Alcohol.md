@@ -5,13 +5,14 @@
 **Actionability**: High
 
 ## Conclusion
-Zero alcohol is optimal. If unavoidable, limit to ≤100g pure alcohol per week (~5 beers), and never drink on an empty stomach.
+Zero alcohol is optimal. If unavoidable, refer to UK guidelines recommending ≤100g pure alcohol per week (~5 beers), and never drink on an empty stomach.
 
 ## Evidence
-- The Lancet 2018: Analysis of 2400+ data sources; zero alcohol minimizes health risk
-- Stanford 2026: No safe level of alcohol consumption; every single drink is harmful
+- The Lancet 2018 (GBD 2016, PMID: 30146330): Systematic analysis of 195 countries/territories, 694 data sources + 592 studies; conclusion: the level of consumption that minimises health loss is zero
+- WHO 2023 statement: No level of alcohol consumption is safe for health
+- Stanford Engineering 2026 (Prof. Randall Stafford interview): Every single drink is harmful
 - Leading causes of death: Cirrhosis, esophageal cancer, breast cancer, cardiovascular disease
-- Acetaldehyde (alcohol metabolism intermediate) is a Group 1 carcinogen
+- IARC classified alcoholic beverages as Group 1 carcinogen (1987); acetaldehyde (alcohol metabolism intermediate) classified by IARC as Group 1 carcinogen associated with consumption of alcoholic beverages (Monograph 100F, 2012)
 
 ## Do
 1. If you can avoid it, don't drink
