@@ -8,10 +8,11 @@
 A small handful (~25g) of plain nuts daily. Nuts are calorie-dense, but "good fats" won't make you gain weight.
 
 ## Evidence
-- PREDIMED trial: Mediterranean diet + 30g nuts daily reduced cardiovascular events by ~28%
-- Multiple cohort studies: Daily nut consumption associated with 10–20% lower all-cause mortality
+- PREDIMED trial: Mediterranean diet + 30g nuts daily reduced cardiovascular events by ~28% [1]
+- Multiple cohort studies: Daily nut consumption associated with 10–20% lower all-cause mortality [2]
 - Nuts are rich in unsaturated fatty acids, fiber, vitamin E, and magnesium
 - Walnuts may be particularly beneficial for cardiovascular health
+- **Note**: PREDIMED is an RCT; cohort studies are observational
 
 ## Do
 1. A small handful daily (~25g), variety of types
@@ -25,3 +26,7 @@ A small handful (~25g) of plain nuts daily. Nuts are calorie-dense, but "good fa
 
 ## Medical Red Flags
 - Nut allergy (lip swelling, difficulty breathing)
+
+## References
+- [1] Estruch R et al. Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with nuts. N Engl J Med. 2018;378:e34. https://pubmed.ncbi.nlm.nih.gov/29897866/
+- [2] Aune D et al. Nut consumption and risk of cardiovascular disease, total cancer, all-cause and cause-specific mortality. BMC Med. 2016;14:207. https://pubmed.ncbi.nlm.nih.gov/27916000/
