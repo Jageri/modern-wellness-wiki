@@ -9,7 +9,7 @@ Betel nut is a Group 1 carcinogen (same category as tobacco), clearly increasing
 
 ## Evidence
 - PLoS ONE meta-analysis: Betel nut chewers have +21% all-cause mortality
-- WHO/IARC classified betel nut as a Group 1 carcinogen (2003)
+- WHO/IARC classified betel nut as a Group 1 carcinogen (2004, IARC Monographs Vol 85)
 - Oral cancer risk: Betel nut chewers have 2–10× increased oral cancer risk (depending on concurrent smoking/alcohol use)
 - Chinese data: Provinces with high betel nut consumption (e.g., Hunan) have significantly higher oral cancer incidence than the national average
 - Mechanism: Arecoline → oral mucosal fibrosis → precancerous lesions → oral cancer
@@ -23,5 +23,5 @@ Betel nut is a Group 1 carcinogen (same category as tobacco), clearly increasing
 5. Note: The "stimulating" effect of betel nut products is not worth the cancer risk
 
 ## References
-- Gajalakshmi V et al. Betel quid chewing and mortality. PLoS ONE. 2013.
-- IARC. Betel-quid and areca-nut chewing. IARC Monographs. 2004.
+- [1] Yamada T et al. Chewing betel quid and the risk of metabolic disease, cardiovascular disease, and all-cause mortality: a meta-analysis. PLoS ONE. 2013;8(8):e70679. https://pubmed.ncbi.nlm.nih.gov/23940623/
+- [2] IARC. Betel-quid and Areca-nut Chewing and Some Areca-nut-derived Nitrosamines. IARC Monographs Vol 85. 2004.
