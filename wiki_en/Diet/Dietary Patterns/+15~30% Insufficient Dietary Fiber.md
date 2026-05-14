@@ -8,10 +8,12 @@
 25–30g dietary fiber per day, obtained from whole grains, vegetables, and legumes.
 
 ## Evidence
-- Lancet 2019 meta-analysis: Each 8g increase in daily dietary fiber → 15% reduction in all-cause mortality
-- Highest fiber intake group has ~30% lower mortality risk than the lowest group
+- Lancet 2019 meta-analysis (Reynolds A et al., PMID: 30638909): Each 8g increase in daily dietary fiber → 5–27% decrease in total deaths and incidences of coronary heart disease, type 2 diabetes, and colorectal cancer
+- Highest vs lowest fiber intake groups: 15–30% lower all-cause and cardiovascular mortality
+- Updated 2023 meta-analysis (Ramezani F et al., PMID: 38011755): Higher fiber intake → 23% lower all-cause mortality (HR 0.77), 26% lower CVD mortality, 22% lower cancer mortality
 - Primary mechanisms: Feeds beneficial gut bacteria, reduces inflammation, improves blood glucose control, lowers cholesterol
 - Whole grains significantly reduce cardiovascular disease and type 2 diabetes risk compared to refined grains
+- ⚠️ Note: Evidence for cancer mortality protection is weaker than for all-cause mortality; some studies found no significant association between fiber and cancer/CVD mortality
 
 ## Do
 1. Switch staple foods to whole grains (brown rice, oats, whole wheat)
