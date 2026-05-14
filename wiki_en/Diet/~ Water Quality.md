@@ -26,3 +26,6 @@ Boil before drinking; clean water dispensers regularly. Don't believe in "alkali
 ## Medical Red Flags
 - Recurrent gastrointestinal discomfort after drinking water
 - Pay attention to official announcements after local water source contamination events
+
+## References
+- [1] WHO. Guidelines for drinking-water quality: fourth edition incorporating the first and second addenda. 2022. https://www.who.int/publications/i/item/9789240045064
