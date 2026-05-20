@@ -10,8 +10,8 @@ Balance and stability training does not directly reduce mortality, but it is one
 ## Evidence
 - WHO data: Falls are the 2nd leading cause of unintentional injury death worldwide (~684,000 deaths annually); adults ≥65 years at highest risk
 - **Sherrington et al., Br J Sports Med 2011 / updated Meta-analysis** (54 RCTs): exercise reduces fall rate by ~16% (pooled rate ratio 0.84, 0.77-0.91); best results from balance training + resistance training + Tai Chi [PMID: 21632004](https://pubmed.ncbi.nlm.nih.gov/21632004/)
-- **Leong et al., Lancet 2015** (PURE study, 140,000 participants, 17 countries): each 5kg reduction in grip strength → +16% all-cause mortality (HR 1.16, 1.13-1.20) and +17% CVD mortality (HR 1.17, 1.11-1.24), outperforming SBP and BMI as mortality predictors [PMID: 25739545](https://pubmed.ncbi.nlm.nih.gov/25739545/)
-- **Garcia-Hermoso et al., Ageing Res Rev 2022** (38 studies, 1.9M participants): grip strength showed a near-linear inverse association with all-cause mortality in the 26-50kg range
+- **Leong et al., Lancet 2015** (PURE study, 140,000 participants, 17 countries): each 5kg reduction in grip strength → +16% all-cause mortality (HR 1.16, 1.13-1.20) and +17% CVD mortality (HR 1.17, 1.11-1.24), outperforming SBP and BMI as mortality predictors [PMID: 25982160](https://pubmed.ncbi.nlm.nih.gov/25982160/)
+- **López-Bueno et al., Ageing Res Rev 2022** (48 studies, 3,135,473 participants): grip strength showed a near-linear inverse association with all-cause mortality in the 26-50kg range [PMID: 36332759]
 - **Cochrane review (2012 update)**: multifactorial interventions (including balance training) reduce fall rate by ~24% in community-dwelling older adults
 - Peter Attia's *Outlive* Chapter 13 positions stability training as the "foundation layer" of exercise: single-leg closed-eye standing, dead hangs (≥2 min), toe yoga, core stability
 
@@ -31,6 +31,7 @@ Balance and stability training does not directly reduce mortality, but it is one
 - Significantly reduced grip strength (men <26kg, women <18kg; relaxed Asian cutoff) suggests sarcopenia risk
 
 ## References
-- Sherrington C, et al. Br J Sports Med. 2011;45(7):585-592. https://pubmed.ncbi.nlm.nih.gov/21632004/
-- Leong DP, et al. (PURE study). Lancet. 2015;386(9990):266-273. https://pubmed.ncbi.nlm.nih.gov/25739545/
+- Sherrington C, et al. N S W Public Health Bull. 2011;22(3-4):78-83. https://pubmed.ncbi.nlm.nih.gov/21632004/
+- Leong DP, et al. (PURE study). Lancet. 2015;386(9990):266-273. https://pubmed.ncbi.nlm.nih.gov/25982160/
 - Gillespie LD, et al. Cochrane Database Syst Rev. 2012;(9):CD007146.
+- López-Bueno R, et al. Thresholds of handgrip strength for all-cause, cancer, and cardiovascular mortality: a systematic review with dose-response meta-analysis. Ageing Res Rev. 2022;82:101778. https://pubmed.ncbi.nlm.nih.gov/36332759/
