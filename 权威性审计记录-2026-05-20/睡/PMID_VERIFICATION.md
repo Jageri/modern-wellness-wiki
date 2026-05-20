@@ -15,3 +15,8 @@
 - 实际 PMID 40101577 是一篇完全不相关的 coumarin/chromone 抗糖尿病化合物论文（Bioorg Chem 2025）
 - 正确论文（标题匹配）对应 PMID 40118084，第一作者为 Benjafield AV（非 Bundy JD）
 - Bundy JD 不在该论文作者列表中
+
+**PMID 27291127 → 27571048 修正**
+- 原条目错误地将 PMID 27291127 归为 McEvoy et al. SAVE trial NEJM 2016
+- 实际 PMID 27291127 在 PubMed 中不可用（404）
+- 正确 PMID 为 27571048，标题/作者/NEJM 2016 均匹配 ✅
