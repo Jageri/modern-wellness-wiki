@@ -12,6 +12,7 @@ Persistent low mood + loss of interest for >2 weeks: seek medical help proactive
 - Chronic stress elevates cortisol via HPA axis → damages immune, cardiovascular, and metabolic systems
 - Depression is significantly associated with cardiovascular disease, diabetes, and cancer risk (observational evidence)
 - Social isolation and depression show a bidirectional association, mutually reinforcing as risk factors
+- Inflammation-depression pathway: Mac Giollabhui 2026 meta-analysis of 11 RCTs found that in depressed patients with CRP ≥2 mg/L, anti-inflammatory treatment significantly improved anhedonia (Hedges' g=0.40, 95% CI: 0.08-0.71) and overall depressive symptoms (g=0.35, 95% CI: 0.05-0.64). Inflammatory cytokines can cross the blood-brain barrier and affect the reward system; approximately half of depressed patients have chronic inflammation
 
 ### ⚠️ Limitations & Controversies
 - **Counter-evidence**: Miloyan & Fried 2017 reanalyzed 3.6 million participants and found that after controlling for comorbid mental disorders and health behaviors, the depression-mortality association disappeared. However, this is a secondary analysis, not an independent cohort
@@ -24,6 +25,7 @@ Persistent low mood + loss of interest for >2 weeks: seek medical help proactive
 2. Regular exercise: the 2024 BMJ network meta-analysis (Noetel et al.) confirmed walking/jogging (g=-0.62), yoga (g=-0.55), and strength training (g=-0.49) have moderate effects on depression and should be considered alongside psychotherapy and antidepressants as core treatments
 3. 10 minutes of mindfulness meditation daily (MBCT has evidence for preventing depression relapse)
 4. Maintain regular schedule; ensure adequate sleep
+5. If accessible, consider testing high-sensitivity C-reactive protein (hs-CRP); CRP ≥2 mg/L suggests a possible inflammatory depression subtype—discuss with your doctor whether adjunctive anti-inflammatory treatment is warranted
 
 ## Don't
 1. Don't tell yourself to "just cheer up"—it's not an attitude problem, it's an illness
@@ -34,9 +36,11 @@ Persistent low mood + loss of interest for >2 weeks: seek medical help proactive
 - Persistent low mood + loss of interest for >2 weeks
 - Panic attacks
 - Thoughts of self-harm
+- hs-CRP ≥2 mg/L + persistent low mood (suggests inflammatory depression subtype, requires precision evaluation)
 
 ## References
 - Cuijpers P et al. Comprehensive meta-analysis of excess mortality in depression. Am J Psychiatry. 2014. PMID: 24434956
 - Chan JKN et al. All-cause and cause-specific mortality in people with depression. World Psychiatry. 2025. PMID: 40948054
 - Noetel M et al. Effect of exercise for depression: systematic review and network meta-analysis. BMJ. 2024. PMID: 38355154
 - Miloyan B, Fried E. A reassessment of the relationship between depression and all-cause mortality. World Psychiatry. 2017. PMID: 28498573
+- Mac Giollabhui N et al. Effect of anti-inflammatory treatment on depressive symptom severity and anhedonia in depressed individuals with elevated inflammation: systematic review and meta-analysis of randomized controlled trials. Am J Psychiatry. 2026;183(1):70-79. PMID: 41366844
