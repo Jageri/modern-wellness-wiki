@@ -12,13 +12,20 @@ Strength training is associated with reduced all-cause mortality, independent of
 - Another BJSM 2022 meta-analysis (16 studies) showed muscle-strengthening activities were associated with 10-17% lower all-cause mortality and 17% lower CVD risk (RR 0.83) [6]
 - Optimal dose: ~60 minutes/week of resistance training, maximum risk reduction -27% (RR 0.74, 95% CI 0.64-0.86) [1]
 - Saeidifard 2019 meta-analysis: Resistance training alone reduced all-cause mortality by ~21%, and combined with aerobic exercise by ~40% [2]
+-
+- **Dose-response relationship** (Coleman 2022, 416,420 US adults cohort, BJSM [7]):
+  - Minimum effective dose: 1 session/week significantly reduces all-cause mortality (HR 0.89, 95% CI 0.81-0.97)
+  - Optimal range: 2-3 sessions/week, ~60-120 minutes total (consistent with Shailendra 2022's 60-minute optimal dose [1])
+  - Ceiling effect: ≥7 sessions/week shows no significant additional benefit (HR 0.99, 95% CI 0.94-1.04)
+  - Combined RT + aerobic: adding resistance training on top of aerobic exercise can further reduce all-cause mortality by 50%+
+-
 - Sarcopenia patients: 20-30% mortality rate within 1 year of fall-related fractures (hip fractures especially lethal) [3]
 - Core mechanisms: Maintains insulin sensitivity, bone density, basal metabolic rate, functional independence
 - Key indicators: Grip strength (strong all-cause mortality predictor) [4], leg strength, gait speed
 - **Note**: Above evidence is from observational studies, not RCTs; healthy user bias may be present
 
 ## Do
-1. 2-3 full-body strength training sessions per week
+1. 2-3 full-body strength training sessions per week (optimal total: 60-120 min/week; even 1 session/week provides significant benefit)
 2. Focus on compound movements: squats, deadlifts, bench press, rows, overhead press
 3. Progressive overload: gradually increase weight/reps/sets
 4. For 60+ years: focus on grip strength, single-leg standing, floor-to-stand ability
@@ -32,3 +39,4 @@ Strength training is associated with reduced all-cause mortality, independent of
 4. [García-Hermoso A et al. Thresholds of handgrip strength for all-cause mortality: A systematic review with dose-response meta-analysis. Ageing Res Rev. 2022;82:101778.](https://www.sciencedirect.com/science/article/pii/S1568163722002203)
 5. [Jäger R et al. International Society of Sports Nutrition Position Stand: protein and exercise. JISSN. 2017;14:20.](https://pubmed.ncbi.nlm.nih.gov/28642676/)
 6. [Momma H et al. Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies. Br J Sports Med. 2022;56(13):755-763.](https://pmc.ncbi.nlm.nih.gov/articles/PMC9209691/)
+7. [Coleman CJ et al. Dose-response association of aerobic and muscle-strengthening physical activity with mortality: a national cohort study of 416,420 US adults. Br J Sports Med. 2022;56(21):1218-1225.](https://pubmed.ncbi.nlm.nih.gov/35953241/)
