@@ -1,9 +1,26 @@
+import { execFileSync } from 'node:child_process'
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
-import { dirname, join, relative } from 'node:path'
+import { dirname, join, relative, sep } from 'node:path'
 
 const projectRoot = process.cwd()
 const outputRoot = join(projectRoot, '.site-content')
+const siteOutputRoot = join(projectRoot, '.vitepress', 'dist')
 const contentRoots = ['wiki_zh', 'wiki_en', 'docs']
+
+function modifiedDates() {
+  const output = execFileSync('git', [
+    '-c', 'core.quotepath=false', 'log', '--format=@@%ct', '--name-only', '--', 'wiki_zh', 'wiki_en'
+  ], { encoding: 'utf8' })
+  const dates = new Map()
+  let timestamp = ''
+  for (const line of output.split('\n')) {
+    if (line.startsWith('@@')) timestamp = line.slice(2)
+    else if (line && !dates.has(line)) dates.set(line, new Date(Number(timestamp) * 1000).toISOString().slice(0, 10))
+  }
+  return dates
+}
+
+const dates = modifiedDates()
 
 function safePath(path) {
   return path.replaceAll('%', 'percent')
@@ -55,8 +72,25 @@ async function copyMarkdownTree(sourceRoot) {
       const relativePath = safePath(relative(projectRoot, sourcePath))
       const destination = join(outputRoot, relativePath)
       const markdown = await readFile(sourcePath, 'utf8')
+      const sourceRelative = relative(projectRoot, sourcePath).split(sep).join('/')
+      const title = markdown.match(/^#\s+(.+)$/m)?.[1].trim() ?? entry.name.replace(/\.md$/, '')
+      const isEnglish = sourceRoot === 'wiki_en'
+      const reviewBlock = sourceRoot.startsWith('wiki_') ? `
+
+---
+
+## ${isEnglish ? 'Review and corrections' : '审阅与纠错'}
+
+- ${isEnglish ? 'Page last updated' : '页面最近更新'}：${dates.get(sourceRelative) ?? '—'}
+- ${isEnglish ? 'Evidence review' : '证据审阅'}：[${isEnglish ? 'Editorial and evidence standard' : '条目权威性审计标准'}](/docs/standards/条目权威性审计标准)
+- ${isEnglish ? 'Report a problem' : '发现问题'}：[${isEnglish ? 'Open a GitHub issue' : '提交 GitHub Issue'}](https://github.com/Jageri/modern-wellness-wiki/issues/new?title=${encodeURIComponent(`${isEnglish ? 'Correction' : '纠错'}: ${title}`)})
+
+${isEnglish
+  ? '> This page provides general health information and does not replace individual medical diagnosis or treatment.'
+  : '> 本页提供一般健康科普信息，不替代医生诊断、处方或个体化医疗建议。'}
+` : ''
       await mkdir(dirname(destination), { recursive: true })
-      await writeFile(destination, markdown.replaceAll('%25', 'percent'))
+      await writeFile(destination, `${markdown.replaceAll('%25', 'percent').trimEnd()}${reviewBlock}\n`)
     }
   }
 
@@ -64,6 +98,7 @@ async function copyMarkdownTree(sourceRoot) {
 }
 
 await rm(outputRoot, { recursive: true, force: true })
+await rm(siteOutputRoot, { recursive: true, force: true })
 await mkdir(outputRoot, { recursive: true })
 
 for (const root of contentRoots) await copyMarkdownTree(root)
@@ -80,3 +115,9 @@ for (const [source, destination] of [
 await writeFile(join(outputRoot, 'index.md'), await homepage())
 
 await cp(join(projectRoot, 'assets'), join(outputRoot, 'assets'), { recursive: true })
+await mkdir(join(outputRoot, 'public'), { recursive: true })
+await writeFile(join(outputRoot, 'public', 'robots.txt'), `User-agent: *
+Allow: /
+
+Sitemap: https://jageri.github.io/modern-wellness-wiki/sitemap.xml
+`)

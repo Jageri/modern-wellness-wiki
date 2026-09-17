@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs'
 import { join, relative, sep } from 'node:path'
 import { defineConfig } from 'vitepress'
+import { metadataFor, pageLanguage, seoHead } from './seo.mts'
 
 const projectRoot = process.cwd()
 
@@ -60,6 +61,16 @@ export default defineConfig({
   lastUpdated: true,
   sitemap: {
     hostname: 'https://jageri.github.io/modern-wellness-wiki/'
+  },
+  transformPageData(pageData) {
+    return { description: metadataFor(pageData).description }
+  },
+  transformHead(context) {
+    return seoHead(context)
+  },
+  transformHtml(code, _id, context) {
+    const language = pageLanguage(context.pageData.relativePath)
+    return code.replace(/<html lang="[^"]+"/, `<html lang="${language}"`)
   },
   head: [
     ['meta', { name: 'theme-color', content: '#2f6f73' }],
