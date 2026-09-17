@@ -1,4 +1,50 @@
+import { readFileSync, readdirSync } from 'node:fs'
+import { join, relative, sep } from 'node:path'
 import { defineConfig } from 'vitepress'
+
+const projectRoot = process.cwd()
+
+function safeRoute(path: string) {
+  return `/${path.split(sep).join('/').replaceAll('%', 'percent').replace(/\.md$/, '')}`
+}
+
+function pageTitle(path: string) {
+  const markdown = readFileSync(path, 'utf8')
+  return markdown.match(/^#\s+(.+)$/m)?.[1].trim() ?? path.split(sep).at(-1)?.replace(/\.md$/, '')
+}
+
+function directoryItems(directory: string): any[] {
+  const entries = readdirSync(directory, { withFileTypes: true })
+    .sort((left, right) => left.name.localeCompare(right.name, 'zh-CN'))
+  const items: any[] = []
+
+  for (const entry of entries.filter((item) => item.isDirectory())) {
+    const children = directoryItems(join(directory, entry.name))
+    if (children.length) {
+      items.push({ text: entry.name, collapsed: true, items: children })
+    }
+  }
+
+  for (const entry of entries.filter((item) => item.isFile() && item.name.endsWith('.md'))) {
+    const absolutePath = join(directory, entry.name)
+    items.push({
+      text: pageTitle(absolutePath),
+      link: safeRoute(relative(projectRoot, absolutePath))
+    })
+  }
+
+  return items
+}
+
+const chineseSidebar = [
+  { text: '中文说明', link: '/README' },
+  { text: '中文条目', collapsed: false, items: directoryItems(join(projectRoot, 'wiki_zh')) }
+]
+
+const englishSidebar = [
+  { text: 'About this wiki', link: '/README_en' },
+  { text: 'English entries', collapsed: false, items: directoryItems(join(projectRoot, 'wiki_en')) }
+]
 
 export default defineConfig({
   title: '现代养生百科',
@@ -29,10 +75,19 @@ export default defineConfig({
   themeConfig: {
     logo: '/assets/cover.jpg',
     nav: [
-      { text: '中文索引', link: '/' },
+      { text: '首页', link: '/' },
+      { text: '中文', link: '/README' },
       { text: 'English', link: '/README_en' },
-      { text: '项目说明', link: '/README' }
+      { text: '表格索引', link: '/INDEX' }
     ],
+    sidebar: {
+      '/wiki_zh/': chineseSidebar,
+      '/wiki_en/': englishSidebar,
+      '/README_en': englishSidebar,
+      '/README': chineseSidebar,
+      '/INDEX': chineseSidebar,
+      '/': chineseSidebar
+    },
     search: {
       provider: 'local',
       options: {
