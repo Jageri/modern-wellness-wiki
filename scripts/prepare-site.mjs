@@ -136,6 +136,7 @@ await writeFile(join(outputRoot, 'index.md'), await homepage())
 
 await cp(join(projectRoot, 'assets'), join(outputRoot, 'assets'), { recursive: true })
 await mkdir(join(outputRoot, 'public'), { recursive: true })
+await cp(join(projectRoot, 'public'), join(outputRoot, 'public'), { recursive: true })
 await writeFile(join(outputRoot, 'public', 'robots.txt'), `User-agent: *
 Allow: /
 

@@ -26,6 +26,12 @@ const englishToChinese = new Map()
 for (const file of allHtmlFiles) {
   if (file.endsWith('/404.html')) continue
   const html = await readFile(file, 'utf8')
+  if (/\/google[\da-f]+\.html$/.test(file)) {
+    if (!/^google-site-verification: google[\da-f]+\.html\s*$/.test(html)) {
+      failures.push(`${file}: malformed Google site verification file`)
+    }
+    continue
+  }
   if (!html.match(/<meta name="description" content="[^"]+"/)) failures.push(`${file}: missing or malformed description`)
   if (!html.match(/<link rel="canonical" href="[^"]+"/)) failures.push(`${file}: missing canonical`)
 }
