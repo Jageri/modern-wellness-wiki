@@ -78,14 +78,14 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '中文', link: '/README' },
       { text: 'English', link: '/README_en' },
-      { text: '表格索引', link: '/INDEX' }
+      { text: '表格索引', link: '/catalog' }
     ],
     sidebar: {
       '/wiki_zh/': chineseSidebar,
       '/wiki_en/': englishSidebar,
       '/README_en': englishSidebar,
       '/README': chineseSidebar,
-      '/INDEX': chineseSidebar,
+      '/catalog': chineseSidebar,
       '/': chineseSidebar
     },
     search: {

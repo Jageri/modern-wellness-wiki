@@ -26,7 +26,7 @@ description: 基于同行评审研究、逐条审计的中英文健康与长寿�
 
 - [中文项目说明](/README)
 - [English introduction](/README_en)
-- [中文全量表格索引](/INDEX)
+- [中文全量表格索引](/catalog)
 - [条目撰写标准](/docs/standards/条目撰写标准)
 
 ## 本站特点
@@ -69,7 +69,7 @@ await mkdir(outputRoot, { recursive: true })
 for (const root of contentRoots) await copyMarkdownTree(root)
 
 for (const [source, destination] of [
-  ['INDEX.md', 'INDEX.md'],
+  ['INDEX.md', 'catalog.md'],
   ['README.md', 'README.md'],
   ['README_en.md', 'README_en.md']
 ]) {
