@@ -1,50 +1,52 @@
 # Fish Oil / Omega-3
 
-**Mortality Impact**: Insufficient evidence of benefit in healthy populations; may be beneficial for those with existing CVD (limited to high-purity EPA, evidence contested)
-**Evidence Level**: ⭐⭐⭐ (Discussed by population subgroup; REDUCE-IT conclusion affected by mineral oil placebo controversy)
+**Mortality Impact**: Fish-oil supplements have not shown an all-cause mortality benefit in unselected general populations; prescription high-purity EPA reduces cardiovascular events in a narrowly defined high-risk population, but this is not evidence that ordinary fish oil extends life
+**Evidence Level**: ⭐⭐⭐⭐ (large RCTs and systematic reviews are consistent for routine supplements; high-purity EPA is a population-specific exception)
 **Actionability**: High
 
 ## Conclusion
-Eating deep-sea fish twice a week is better than taking fish oil capsules. Those with existing cardiovascular disease should supplement as advised by their doctor. There is no evidence of mortality benefit from fish oil capsules in healthy populations.
 
-## Evidence
+- **Routine primary prevention**: Do not routinely take fish-oil capsules to prevent cardiovascular disease or extend life.
+- **Established cardiovascular disease**: Having CVD alone is not an indication to take fish oil. High-dose mixed EPA+DHA did not reduce major cardiovascular events in STRENGTH.
+- **Selected prescription setting**: People already on statins who remain at high or very high cardiovascular risk and have fasting triglycerides of 135–499 mg/dL can discuss prescription icosapent ethyl (high-purity EPA, 4 g/day) with a clinician. This is not a class effect of commercial EPA+DHA capsules.
+- **Fish and supplements are separate questions**: Fish can be part of a healthy dietary pattern, but randomized evidence is insufficient to claim that "eating fish is more effective than taking fish oil," and observational evidence about fish intake cannot be transferred to supplements.
 
-### Supporting Evidence
-- **REDUCE-IT** (Bhatt et al. NEJM 2019): High-purity EPA (icosapent ethyl, 4g/day) in patients with elevated TG (150-499 mg/dL) + established CVD or diabetes with risk factors reduced major CV events by ~25% (HR 0.75, 95% CI 0.68-0.83)
-  - **Population limitation**: Only applicable to high TG + high CV risk patients; cannot be generalized to general CVD patients or healthy populations
-  - **Conflict of interest**: Trial funded by Amarin (manufacturer of Vascepa)
-  - **Mineral oil placebo controversy**: Control group used mineral oil, which may have raised LDL and hsCRP, potentially inflating the treatment benefit
-  - **Risk signal**: High-dose EPA increased hospitalization for atrial fibrillation/flutter (3.1% vs 2.1%, p=0.004) and bleeding risk
-- **Khan 2021 Meta-analysis** (38 RCTs, 149,051 participants): Omega-3 FA overall reduced CV mortality (RR 0.93, 95% CI 0.88-0.98), but effect primarily driven by EPA monotherapy; EPA+DHA combination showed weaker effects
-  - EPA alone was significantly more effective than EPA+DHA, suggesting DHA may partially offset EPA's cardioprotective effects
+## Clinical Outcomes: Mortality and Cardiovascular Events
 
-### Opposing Evidence
-- **VITAL trial** (Manson et al. NEJM 2019): Primary prevention RCT in 25,871 healthy individuals, 1g/day EPA+DHA, median follow-up 5.3 years, did not significantly reduce the primary composite CV endpoint
-- **STRENGTH trial** (Nicholls et al. JAMA 2020): 13,078 high CV risk patients, EPA+DHA 4g/day vs corn oil, terminated early for futility (HR 0.99, 95% CI 0.90-1.09, p=0.84)
-- **Aung 2018 Meta-analysis** (10 RCTs, 77,917 participants): Omega-3 supplementation had no significant association with CHD death, non-fatal MI, or major vascular events
-- **Cochrane Systematic Review** (Abdelhamid 2018, updated 2020): High-quality evidence that long-chain omega-3 fats do not have important effects on all-cause mortality or cardiovascular events
+- **Cochrane 2020**: Across 86 RCTs and 162,796 participants, increasing long-chain omega-3 had little or no effect on all-cause mortality (RR 0.97, 95% CI 0.93–1.01) or cardiovascular events (RR 0.96, 95% CI 0.92–1.01). Evidence came mainly from supplement trials; there was little randomized evidence on increasing fish intake itself.
+- **VITAL (primary prevention)**: Among 25,871 US adults without prior CVD or cancer, 1 g/day of marine omega-3 for a median 5.3 years did not reduce the primary major cardiovascular composite (HR 0.92, 95% CI 0.80–1.06) or all-cause mortality (HR 1.02, 95% CI 0.90–1.15).
+- **STRENGTH (high-risk population)**: Among 13,078 statin-treated participants with high triglycerides and low HDL-C, 4 g/day of mixed EPA+DHA versus corn oil produced primary-endpoint rates of 12.0% versus 12.2% (HR 0.99, 95% CI 0.90–1.09); the trial stopped early for futility.
+- **REDUCE-IT (prescription high-purity EPA)**: Among 8,179 statin-treated participants with triglycerides of 135–499 mg/dL (70.7% in secondary prevention; the remainder had diabetes plus other risk factors), icosapent ethyl 4 g/day reduced the primary composite from 22.0% to 17.2% (HR 0.75, 95% CI 0.68–0.83; absolute difference 4.8 percentage points; NNT about 21 over a median 4.9 years). Cardiovascular death was 4.3% versus 5.2%, but the trial does not establish an all-cause mortality benefit for ordinary fish oil or the general population.
 
-### Key Distinctions
-- EPA monotherapy (REDUCE-IT) ≠ EPA+DHA (VITAL, STRENGTH, most commercial fish oils)
-- Pharmaceutical-grade purified EPA (Vascepa) ≠ ordinary fish oil capsules — dose, purity, and formulation are entirely different
-- Food-derived Omega-3 (fish) is more effective than supplements — possibly due to co-ingested nutrients, and observational studies cannot exclude healthy-user bias
+## Triglycerides Are a Surrogate Outcome
+
+Long-chain omega-3 lowers triglycerides; Cochrane estimated an average reduction of about 15%, with a dose-response relationship. A biomarker reduction does not by itself prove fewer cardiovascular events or longer life. STRENGTH illustrates this distinction.
+
+## Risks and Uncertainties
+
+- **Atrial fibrillation**: A 2026 meta-analysis of 35 RCTs (114,592 participants) found a significant increase only in the high-CVD-risk, high-dose (>1,500 mg/day EPA+DHA) group (OR 1.43, 95% CI 1.14–1.79; absolute risk difference 0.8%). Other dose/risk groups did not show a significant increase. Some authors had omega-3 industry ties, so the result should be read with the wider evidence base.
+- **Bleeding**: A 2024 meta-analysis of 11 RCTs (120,643 participants) found no significant overall increase in bleeding (RR 1.09, 95% CI 0.91–1.31). In the high-dose purified-EPA subgroup, relative risk increased 50%, but absolute risk increased only 0.6%. Serious bleeding in REDUCE-IT was 2.7% versus 2.1% (P=0.06).
+- **Why trials differ**: REDUCE-IT was funded by Amarin and used a mineral-oil-containing comparator; STRENGTH was funded by AstraZeneca and used corn oil. The 2025 ESC/EAS guideline lists population, active formulation, and placebo formulation as possible explanations for the discordant results. These are uncertainties, not a proven single explanation.
 
 ## Do
-1. Eat deep-sea fish twice a week (salmon, mackerel, sardines)
-2. Those with existing CVD + elevated triglycerides should consult their doctor about whether high-purity EPA is needed (note: this is a prescription drug, Vascepa/icosapent ethyl, not a supplement)
-3. Those who don't eat fish can consider algae-derived DHA
+
+1. Treat fish as part of an overall healthy diet, not as observational evidence that can be converted into a capsule dose.
+2. If you have ASCVD or high-risk diabetes, review statin therapy, your triglyceride value, and eligibility for prescription icosapent ethyl with a clinician.
+3. Discuss high-dose omega-3 with a clinician before starting it if you have a history of atrial fibrillation/flutter or take anticoagulant or antiplatelet drugs.
 
 ## Don't
-1. Don't treat fish oil as a cure-all supplement — insufficient evidence in healthy populations (Cochrane, VITAL, Aung all fail to support)
-2. Don't buy cheap fish oil — EPA/DHA content may be very low
-3. Don't assume taking fish oil excuses an unhealthy diet
-4. Don't confuse pharmaceutical-grade EPA with ordinary fish oil — they're completely different
-5. Don't ignore atrial fibrillation risk — high-dose omega-3 increases AF risk (Meta-analysis RR 1.26, 95% CI 1.08-1.48)
+
+1. Do not take fish-oil capsules long term solely for "longevity" or routine primary prevention.
+2. Do not generalize REDUCE-IT's prescription high-purity EPA result to commercial mixed EPA+DHA fish oil.
+3. Do not equate triglyceride lowering with fewer deaths or major cardiovascular events.
+4. Do not claim that DHA "cancels" EPA; head-to-head randomized evidence has not established that mechanism.
 
 ## References
-- Bhatt DL et al. Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia (REDUCE-IT). N Engl J Med. 2019. doi:10.1056/NEJMoa1812792
-- Manson JE et al. Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer (VITAL). N Engl J Med. 2019. doi:10.1056/NEJMoa1811403
-- Nicholls SJ et al. Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events (STRENGTH). JAMA. 2020. doi:10.1001/jama.2020.22258
-- Aung T et al. Associations of Omega-3 Fatty Acid Supplement Use With Cardiovascular Disease Risks. JAMA Cardiol. 2018. doi:10.1001/jamacardio.2017.5205
-- Khan SU et al. Effect of Omega-3 Fatty Acids on Cardiovascular Outcomes: A Systematic Review and Meta-analysis. EClinicalMedicine. 2021. doi:10.1016/j.eclinm.2021.100997
-- Abdelhamid AS et al. Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease. Cochrane Database Syst Rev. 2018 (updated 2020). doi:10.1002/14651858.CD003177.pub4
+
+- [Abdelhamid AS et al. Cochrane Database Syst Rev. 2020. PMID: 32114706](https://pubmed.ncbi.nlm.nih.gov/32114706/)
+- [Manson JE et al. N Engl J Med. 2019. PMID: 30415637](https://pubmed.ncbi.nlm.nih.gov/30415637/)
+- [Nicholls SJ et al. JAMA. 2020. PMID: 33190147](https://pubmed.ncbi.nlm.nih.gov/33190147/)
+- [Bhatt DL et al. N Engl J Med. 2019. PMID: 30415628](https://pubmed.ncbi.nlm.nih.gov/30415628/)
+- [Abuknesha NR et al. Circ Arrhythm Electrophysiol. 2026. PMID: 42517224](https://pubmed.ncbi.nlm.nih.gov/42517224/)
+- [Javaid M et al. J Am Heart Assoc. 2024. PMID: 38742535](https://pubmed.ncbi.nlm.nih.gov/38742535/)
+- [2025 ESC/EAS Focused Update of the dyslipidaemia guidelines](https://academic.oup.com/eurheartj/article/46/42/4359/8234482)

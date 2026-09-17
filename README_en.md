@@ -2,9 +2,19 @@
 
 [中文](README.md)
 
-![Modern Wellness Wiki](cover.jpg)
+![Modern Wellness Wiki](assets/cover.jpg)
 
 An evidence-based knowledge base on all-cause mortality.
+
+## Project Structure
+
+```text
+wiki_zh/   Chinese wiki entries
+wiki_en/   English wiki entries
+docs/      Writing standards, audit standards, and maintenance lists
+audits/    Historical completeness and authority audit records
+assets/    Project-level static assets used by the README and documentation
+```
 
 ---
 
@@ -69,8 +79,8 @@ The above principles are enforced through the following mechanisms:
 
 Systematically identify missing entries by cross-referencing 7+ authoritative sources (HowToLiveLonger, Blue Zones, Peter Attia's *Outlive*, GBD 2019, WHO, Examine.com, Huberman Lab, etc.).
 
-- Audit standards: `条目完整性审计标准.md`
-- Audit records: `完整性审计记录/`
+- Audit standards: `docs/standards/条目完整性审计标准.md`
+- Audit records: `audits/完整性审计记录/`
 
 ### Authority Audit
 
@@ -87,12 +97,12 @@ Every entry must pass 10 checks:
 9. **Publication Bias** — Are negative results being ignored?
 10. **Currency** — Are there newer studies that supersede the cited evidence?
 
-- Audit standards: `条目权威性审计标准.md`
-- Audit records: `权威性审计记录/`
+- Audit standards: `docs/standards/条目权威性审计标准.md`
+- Audit records: `audits/权威性审计记录-*/`
 
 ### Entry Writing Standards
 
-Format, evidence requirements, and uncertainty labeling conventions: `条目撰写标准.md`.
+Format, evidence requirements, and uncertainty labeling conventions: `docs/standards/条目撰写标准.md`.
 
 ## Contributing
 

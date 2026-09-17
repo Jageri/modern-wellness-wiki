@@ -1,52 +1,63 @@
 # Carbohydrates
 
-**Mortality Impact**: Both extreme low-carb (<40%) and extreme high-carb (>70%) increase mortality; 50–55% carbohydrate energy is associated with the lowest all-cause mortality
-**Evidence Level**: ⭐⭐⭐⭐ (Consistent across multiple large meta-analyses, but optimal ratio remains debated; carb source is key)
+**Longevity impact**: No reliable single optimal ratio; total amount, food sources, and replacement nutrients must be interpreted separately
+**Evidence level**: ⭐⭐⭐ (mortality outcomes are mainly observational and not fully consistent; randomized evidence mainly addresses metabolic outcomes)
 **Actionability**: High
 
 ## Conclusion
-Carbohydrates are one of the most controversial topics in nutrition. The core consensus: **carbohydrate quality matters far more than quantity**; the U-shaped curve shows all-cause mortality is lowest at ~50–55% carbohydrate energy, and the source of replacement macronutrients (plant-based vs animal-based fat/protein) significantly modifies risk direction.
+
+A diet cannot be judged by the percentage of energy from carbohydrate alone. A 2018 ARIC cohort analysis and cohort meta-analysis observed a U-shaped association, with the lowest mortality near 50–55%, but this was not an individualized prescription established by randomized trials [1]. A newer observational meta-analysis found only a weak, heterogeneous nonlinear association [2], while a US NHANES analysis found no significant all-cause mortality difference between people consuming <45% and 45–65% of energy from carbohydrate [3].
+
+A more defensible decision framework considers carbohydrate food sources and fiber, what replaces carbohydrate, total energy, and the individual's diabetes medication, lipid response, and ability to sustain the diet.
 
 ## Evidence
-- Lancet Public Health (Seidelmann 2018, PMID 30122560): ARIC cohort 15,428 participants, median 25-year follow-up + meta-analysis of 8 cohorts totaling 432,179 participants. 50–55% carbohydrate → lowest mortality; low-carb (<40%) pooled HR 1.20 (95% CI 1.09–1.32); high-carb (>70%) pooled HR 1.23 (1.11–1.36). Replacing carbs with animal-based fat/protein increased mortality (HR 1.18); plant-based replacement decreased it (HR 0.82). At age 50, those with <30% carb had ~4.0 fewer years of remaining life expectancy vs 50–55% carb
-- BMJ (Ho 2020, PMID 32188587): UK Biobank 195,658 participants. Cardiovascular and all-cause mortality risk of low-carb high-fat patterns depends on fat type — unsaturated fat substitution lowers risk, saturated fat substitution raises it
-- PURE study (Dehghan 2017, PMID 28864332): 135,335 participants across 18 countries. High carbohydrate intake associated with higher total mortality risk; total fat intake associated with lower mortality
-- Blue Zones: Traditional Okinawan diet derives ~85% energy from carbohydrates (primarily sweet potatoes and root vegetables), among the world's longest-lived populations
 
-## Both Sides of the Debate
+### 1. Carbohydrate percentage and mortality: association, not established causation
 
-**Low-carb (<20–30%) evidence:**
-- Significant short-term (<2 years) weight loss
-- Improved type 2 diabetes blood glucose control
-- Lower triglycerides, higher HDL
-- Virta Health continuous remote care trial: ~20% achieved diabetes remission, ~12.5% maintained at 5 years (PMID 39433217)
-- Note: LDL response to low-carb diets depends on saturated fat intake; not all low-carb diets raise LDL
+- Seidelmann et al. followed 15,428 ARIC participants aged 45–64 for a median of 25 years and combined ARIC with seven other prospective cohorts (432,179 people total). Compared with moderate intake, pooled HRs for <40% and >70% carbohydrate were 1.20 (95% CI 1.09–1.32) and 1.23 (1.11–1.36). Replacing carbohydrate with animal-derived fat/protein was associated with higher mortality (HR 1.18), whereas plant-derived replacement was associated with lower mortality (HR 0.82) [1]. These are observational estimates vulnerable to self-reported diet error, residual confounding, and differences in the foods making up each pattern.
+- A 2023 systematic review of 41 observational studies reported an all-cause mortality RR of 1.07 (95% CI 1.00–1.14; I²=61.9%) for the highest versus lowest carbohydrate intake and a nonlinear association (P for nonlinearity=0.008) [2]. This does not support treating one percentage as a precise safety boundary.
+- Counter-evidence: a 2024 NHANES cohort comparison of 7,958 adults consuming <45% carbohydrate with 27,930 consuming 45–65% found an all-cause mortality HR of 0.98 (95% CI 0.87–1.11) [3]. Short-term dietary recalls and pooling all intake below 45% mean it cannot exclude risk at very low intake. The study was supported by IAFNS committees, which pool industry funding, and should be interpreted with that conflict-of-interest context.
 
-**High-carb (50–60%) evidence:**
-- Seidelmann 2018 meta-analysis: 50–55% → lowest mortality
-- Traditional Okinawan diet is predominantly high-carb (low-GI whole foods)
-- High-intensity exercise depends on carbs for fuel
-- Dietary fiber is the core fuel for gut microbiota
-- Lancet 2019 carbohydrate quality systematic reviews: high dietary fiber and whole grain intake associated with lower all-cause mortality and NCD risk
+### 2. Carbohydrate quality: whole grains and fiber are better supported than a "low-GI" label
 
-**Consensus:**
-- Carb quality > carb quantity
-- Whole grains, legumes, vegetables, fruits (good carbs) vs refined grains, added sugar (bad carbs)
-- 50–55% is the range with lowest long-term mortality
-- Health effects of low-carb diets depend on what replaces carbs (unsaturated fat/plant protein vs saturated fat/animal protein)
-- The >70% carb group in PURE was predominantly from lower-income regions consuming refined carbs (white rice), with socioeconomic confounding
+- Reynolds et al. synthesized 185 prospective studies and 58 clinical trials. Observational comparisons of high versus low fiber intake were associated with 15–30% lower all-cause/cardiovascular mortality and several chronic-disease outcomes. Randomized trials supported effects on surrogate outcomes such as body weight, systolic blood pressure, and total cholesterol—not reduced mortality. Evidence certainty was moderate for fiber, low to moderate for whole grains, and low to very low for glycemic index/load [4].
+
+### 3. Low carbohydrate intake and type 2 diabetes: potentially useful short term, not longevity evidence
+
+- A meta-analysis of 23 randomized trials (1,357 participants) found a higher six-month remission rate with low-carbohydrate diets under a definition of HbA1c <6.5% regardless of medication use (risk difference 0.32, 95% CI 0.17–0.47; eight trials, n=264). With the stricter medication-free definition, the difference was not significant; 12-month data were sparse, and several benefits diminished over time [5]. The review was partly funded by Texas A&M; one author wrote a CSIRO low-carbohydrate diet book but reported receiving no personal royalties.
+- Adverse-effect/counter-evidence: LDL responses in randomized trials vary. A 2024 meta-regression of 41 trials (1,379 participants; mean duration 19.4 weeks) found a mean LDL increase of 41 mg/dL (95% CI 19.6–63.3) in trials whose mean baseline BMI was <25 [6]. This short-term, trial-level BMI subgroup analysis cannot be converted into cardiovascular-event or mortality risk. Two authors disclosed royalties from books recommending carbohydrate-modified diets.
 
 ## Do
-1. 40–55% carbohydrate energy is the safe range; don't pursue extreme low-carb
-2. Choose low-GI carbs: brown rice, oats, whole wheat bread, sweet potatoes, legumes
-3. Reduce refined carbs: white rice, white bread, noodles (especially in large quantities)
-4. Avoid liquid sugar: sugary drinks, juice (extremely fast absorption)
-5. Individual variation is large: Insulin-sensitive individuals can tolerate higher carbs; insulin-resistant individuals may need less
-6. If doing low-carb/keto: Recommended under medical supervision with regular lipid monitoring (especially LDL)
-7. If reducing carbs, prioritize replacement with unsaturated fats (olive oil, nuts, avocado) and plant protein, not animal fat
+
+1. Prefer whole grains, legumes, vegetables, and whole fruit over refined grains and added sugars; do not judge quality by carbohydrate grams or GI alone.
+2. When reducing carbohydrate, identify the replacement: prioritize minimally processed plant foods, plant protein, and unsaturated fats rather than ignoring overall food composition.
+3. If trying a low-carbohydrate diet for diabetes, first coordinate adjustment of insulin or insulin-secretagogue medicines and track HbA1c, weight, and medication changes.
+4. During a very-low-carbohydrate or ketogenic diet, monitor LDL-C (and apoB when appropriate) and gastrointestinal tolerance; reassess if lipids rise substantially or the pattern is unsustainable.
+
+## Don't
+
+1. Do not treat 50–55% as a universal "longest-life prescription."
+2. Do not present observational U/J-shaped associations as causal, or short-term HbA1c, weight, or lipid changes as life extension.
+3. Do not treat "low carbohydrate" as one uniform intervention: <45%, <26%, and ketogenic intakes differ in replacement foods, adherence, and risk.
+
+## Medical red flags
+
+- If you use insulin or an insulin secretagogue and plan a large carbohydrate reduction, contact the clinical team before starting to reduce hypoglycemia risk.
+- Persistent vomiting, abdominal pain, deep rapid breathing, marked dehydration, or altered consciousness during a very-low-carbohydrate/ketogenic diet requires urgent assessment.
+- Rapid unintended weight loss, restricted eating, or persistent gastrointestinal symptoms warrants evaluation rather than further self-directed restriction.
+
+## Research limitations
+
+- Long-term mortality evidence mainly comes from prospective cohorts using self-reported diet and cannot fully exclude residual confounding, reverse causation, or exposure misclassification.
+- Studies use different thresholds, comparators, and replacement foods for "low carbohydrate"; their estimates should not be collapsed into one effect.
+- Long-term diet trials are difficult to blind, adherence declines, and most use metabolic markers rather than mortality as endpoints.
+- Diet research may be affected by publication bias. Reynolds et al. conducted multiple robustness analyses and the LDL meta-regression reported negative publication-bias tests, but power and between-study heterogeneity still limit inference.
 
 ## References
-- Seidelmann SB et al. Dietary carbohydrate intake and mortality: a prospective cohort study and meta-analysis. Lancet Public Health. 2018;3(9):e419-e428. PMID: 30122560. DOI: 10.1016/S2468-2667(18)30135-X
-- Dehghan M et al. Associations of fats and carbohydrate intake with cardiovascular disease and mortality in 18 countries from five continents (PURE). Lancet. 2017;390(10107):2050-2062. PMID: 28864332.
-- Ho FK et al. Associations of fat and carbohydrate intake with cardiovascular disease and mortality. BMJ. 2020;368:m688. PMID: 32188587.
-- Reynolds A et al. Carbohydrate quality and human health: a series of systematic reviews and meta-analyses. Lancet. 2019;393(10170):434-445. PMID: 30638909.
+
+1. [Seidelmann SB, et al. *Lancet Public Health*. 2018. PMID: 30122560.](https://pubmed.ncbi.nlm.nih.gov/30122560/)
+2. [Qin P, et al. *Clinical Nutrition*. 2023. PMID: 36586217.](https://pubmed.ncbi.nlm.nih.gov/36586217/)
+3. [Angelotti A, et al. *Frontiers in Nutrition*. 2024. PMID: 38374828.](https://pubmed.ncbi.nlm.nih.gov/38374828/)
+4. [Reynolds A, et al. *The Lancet*. 2019. PMID: 30638909.](https://pubmed.ncbi.nlm.nih.gov/30638909/)
+5. [Goldenberg JZ, et al. *BMJ*. 2021. PMID: 33441384.](https://pubmed.ncbi.nlm.nih.gov/33441384/)
+6. [Soto-Mota A, et al. *American Journal of Clinical Nutrition*. 2024. PMID: 38237807.](https://pubmed.ncbi.nlm.nih.gov/38237807/)
