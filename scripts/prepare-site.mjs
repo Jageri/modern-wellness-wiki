@@ -28,44 +28,52 @@ function safePath(path) {
 
 async function homepage() {
   return `---
-title: 现代养生百科
-titleTemplate: 循证健康与长寿知识库
-description: 基于同行评审研究、逐条审计的中英文健康与长寿知识库。
+title: 现代养生百科 / Modern Wellness Wiki
+titleTemplate: 循证健康与长寿知识库 / Evidence-based health and longevity
+description: 基于同行评审研究、逐条审计的中英文健康与长寿知识库。An evidence-based bilingual health and longevity wiki with transparent audits.
 ---
 
-# 现代养生百科
+# 现代养生百科 / Modern Wellness Wiki
 
 一个基于循证医学、面向普通读者的中英文健康与长寿知识库。
 
-请从左侧目录按分类浏览 100 个中文条目；切换到 [English](/README_en) 后，左侧会显示独立的英文目录。
+<span lang="en">An evidence-based bilingual health and longevity knowledge base written for general readers.</span>
 
-## 从这里开始
+请从左侧目录按分类浏览 100 个中文条目；进入 [English introduction](/README_en) 后，左侧会切换为独立的英文目录。
 
-- [中文项目说明](/README)
-- [English introduction](/README_en)
-- [中文全量表格索引](/catalog)
+<span lang="en">Browse 100 Chinese entries from the sidebar. Open the [English introduction](/README_en) to switch the sidebar to the separate English directory.</span>
 
-## 本站特点
+## 从这里开始 / Start here
 
-- **100 个中文条目、100 个英文条目**：中英成对维护。
-- **证据可追溯**：重要结论提供原始研究和 PMID。
-- **明确不确定性**：区分观察性关联、因果证据与证据不足。
-- **持续审计**：复核效果量、反面证据、利益冲突、人群适用性与时效性。
+- [中文项目说明 / Chinese introduction](/README)
+- [English introduction / 英文项目说明](/README_en)
+- [中文全量表格索引 / Complete Chinese table index](/catalog)
 
-## 审核与维护
+## 本站特点 / What makes this wiki different
+
+- **100 个中文条目、100 个英文条目 / 100 Chinese and 100 English entries**：中英成对维护。<span lang="en">Each entry is maintained as a bilingual pair.</span>
+- **证据可追溯 / Traceable evidence**：重要结论提供原始研究和 PMID。<span lang="en">Key claims link to original studies and PMIDs.</span>
+- **明确不确定性 / Explicit uncertainty**：区分观察性关联、因果证据与证据不足。<span lang="en">Observational associations, causal evidence and insufficient evidence are clearly distinguished.</span>
+- **持续审计 / Ongoing audits**：复核效果量、反面证据、利益冲突、人群适用性与时效性。<span lang="en">Effect sizes, contrary evidence, conflicts of interest, population applicability and recency are reviewed.</span>
+
+## 审核与维护 / Auditing and maintenance
 
 本站公开条目的撰写、审核和持续维护规则，读者可以据此检查每条结论是如何形成的。
 
-| 公开文档 | 说明 |
+<span lang="en">The rules for writing, auditing and maintaining entries are public, so readers can inspect how each conclusion was developed. The standards themselves are currently maintained in Chinese.</span>
+
+| 公开文档 / Public document | 说明 / Purpose |
 | --- | --- |
-| [条目权威性审计标准](/docs/standards/条目权威性审计标准) | 核验引用、数据、反面证据、利益冲突、适用人群与时效性 |
-| [条目完整性审计标准](/docs/standards/条目完整性审计标准) | 对照权威风险因素和主题范围，识别百科缺口 |
-| [条目撰写标准](/docs/standards/条目撰写标准) | 统一条目结构、证据表达、引用格式与不确定性说明 |
-| [待完善条目清单](/docs/tracking/待完善条目清单) | 公开当前仍需补充或复核的内容 |
-| [历史审计档案](https://github.com/Jageri/modern-wellness-wiki/tree/main/audits) | 查看历次完整性审计、权威性审计及全库复审记录 |
-| [提交纠错](https://github.com/Jageri/modern-wellness-wiki/issues/new?title=%E7%BA%A0%E9%94%99%EF%BC%9A) | 报告引用、数字、表述或页面问题 |
+| [条目权威性审计标准 / Authority audit standard](/docs/standards/条目权威性审计标准) | 核验引用、数据、反面证据、利益冲突、适用人群与时效性。<br><span lang="en">Checks citations, data, contrary evidence, conflicts, applicability and recency.</span> |
+| [条目完整性审计标准 / Coverage audit standard](/docs/standards/条目完整性审计标准) | 对照权威风险因素和主题范围，识别百科缺口。<br><span lang="en">Finds coverage gaps against authoritative risk-factor and topic frameworks.</span> |
+| [条目撰写标准 / Entry writing standard](/docs/standards/条目撰写标准) | 统一条目结构、证据表达、引用格式与不确定性说明。<br><span lang="en">Defines entry structure, evidence language, citation format and uncertainty disclosure.</span> |
+| [待完善条目清单 / Improvement backlog](/docs/tracking/待完善条目清单) | 公开当前仍需补充或复核的内容。<br><span lang="en">Lists content that still needs expansion or review.</span> |
+| [历史审计档案 / Audit archive](https://github.com/Jageri/modern-wellness-wiki/tree/main/audits) | 查看历次完整性审计、权威性审计及全库复审记录。<br><span lang="en">Browse historical coverage, authority and full-library audit records.</span> |
+| [提交纠错 / Report a correction](https://github.com/Jageri/modern-wellness-wiki/issues/new?title=%E7%BA%A0%E9%94%99%EF%BC%9A) | 报告引用、数字、表述或页面问题。<br><span lang="en">Report a problem with a citation, number, statement or page.</span> |
 
 本项目用于健康科普，不替代医生诊断、处方或个体化医疗建议。
+
+<span lang="en">This project provides general health information and does not replace individual medical diagnosis, prescriptions or treatment.</span>
 `
 }
 

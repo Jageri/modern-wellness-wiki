@@ -164,7 +164,7 @@ export function metadataFor(pageData: any): EntryMeta {
   const entry = pageMetadata.get(pageData.relativePath)
   if (entry) return entry
   const generatedPath = join(projectRoot, '.site-content', pageData.relativePath)
-  const generatedDescription = existsSync(generatedPath)
+  const generatedDescription = pageData.relativePath !== 'index.md' && existsSync(generatedPath)
     ? genericDescriptionFrom(readFileSync(generatedPath, 'utf8'))
     : ''
   return genericMetadata(

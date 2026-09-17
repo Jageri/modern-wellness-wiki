@@ -86,10 +86,10 @@ export default defineConfig({
   themeConfig: {
     logo: '/assets/cover.jpg',
     nav: [
-      { text: '首页', link: '/' },
+      { text: '首页 / Home', link: '/' },
       { text: '中文', link: '/README' },
       { text: 'English', link: '/README_en' },
-      { text: '表格索引', link: '/catalog' }
+      { text: '表格索引 / Catalog', link: '/catalog' }
     ],
     sidebar: {
       '/wiki_zh/': chineseSidebar,
