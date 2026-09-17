@@ -22,6 +22,7 @@ const allHtmlFiles = await htmlFiles(outputRoot)
 const failures = []
 const chineseToEnglish = new Map()
 const englishToChinese = new Map()
+const analyticsId = 'G-70W9E03TT7'
 
 for (const file of allHtmlFiles) {
   if (file.endsWith('/404.html')) continue
@@ -34,6 +35,12 @@ for (const file of allHtmlFiles) {
   }
   if (!html.match(/<meta name="description" content="[^"]+"/)) failures.push(`${file}: missing or malformed description`)
   if (!html.match(/<link rel="canonical" href="[^"]+"/)) failures.push(`${file}: missing canonical`)
+  if ((html.match(new RegExp(`googletagmanager\\.com/gtag/js\\?id=${analyticsId}`, 'g')) ?? []).length !== 1) {
+    failures.push(`${file}: missing or duplicate Google tag loader`)
+  }
+  if ((html.match(new RegExp(`gtag\\(["']config["'],\\s*["']${analyticsId}["']\\)`, 'g')) ?? []).length !== 1) {
+    failures.push(`${file}: missing or duplicate Google Analytics configuration`)
+  }
 }
 
 for (const file of articleFiles) {

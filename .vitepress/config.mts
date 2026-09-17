@@ -78,7 +78,12 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: '现代养生百科' }],
     ['meta', { property: 'og:image', content: 'https://jageri.github.io/modern-wellness-wiki/assets/cover.jpg' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['link', { rel: 'icon', href: '/modern-wellness-wiki/assets/cover.jpg' }]
+    ['link', { rel: 'icon', href: '/modern-wellness-wiki/assets/cover.jpg' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-70W9E03TT7' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-70W9E03TT7');`]
   ],
   markdown: {
     lineNumbers: false
