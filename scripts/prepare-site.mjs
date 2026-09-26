@@ -26,41 +26,20 @@ function modifiedDates() {
 
 const dates = modifiedDates()
 
+function prepareReaderMarkdown(markdown) {
+  return markdown.replaceAll('%25', 'percent').replaceAll('(INDEX.md)', '(catalog.md)')
+}
+
 async function homepage() {
+  // The repository landing page and website home share one reader-facing index.
+  const markdown = await readFile(join(projectRoot, 'README.md'), 'utf8')
   return `---
 title: 现代养生百科 / Modern Wellness Wiki
 titleTemplate: 循证健康与长寿知识库 / Evidence-based health and longevity
-description: 基于同行评审研究、逐条审计的中英文健康与长寿知识库。An evidence-based bilingual health and longevity wiki with transparent audits.
+description: 中英双语健康与长寿知识库，按饮食、运动、睡眠、医疗等主题浏览，查看适用人群、证据与局限。A bilingual health and longevity topic index.
 ---
 
-# 现代养生百科 / Modern Wellness Wiki
-
-一个基于循证医学、面向普通读者的中英文健康与长寿知识库。
-
-<span lang="en">An evidence-based bilingual health and longevity knowledge base written for general readers.</span>
-
-请从左侧目录按分类浏览 ${entries.length} 个中文条目；进入 [English introduction](/README_en) 后，左侧会切换为独立的英文目录。
-
-<span lang="en">Browse ${entries.length} Chinese entries from the sidebar. Open the [English introduction](/README_en) to switch the sidebar to the separate English directory.</span>
-
-## 从这里开始 / Start here
-
-- [中文项目说明 / Chinese introduction](/README)
-- [English introduction / 英文项目说明](/README_en)
-- [中文全量表格索引 / Complete Chinese table index](/catalog)
-- [从日常决定开始 / Start with an everyday decision](/README#先找到与你有关的决定)
-- [条目复审状态 / Entry review status](/docs/tracking/复审状态)
-
-## 维护与反馈 / Maintenance and feedback
-
-- [项目文档与规则分工 / Documentation and rule ownership](/docs/README)
-- [待完善清单 / Improvement backlog](/docs/tracking/待完善条目清单)
-- [历史审计档案 / Audit archive](https://github.com/Jageri/modern-wellness-wiki/tree/main/audits)
-- [提交纠错 / Report a correction](https://github.com/Jageri/modern-wellness-wiki/issues/new)
-
-本项目用于健康科普，不替代医生诊断、处方或个体化医疗建议。
-
-<span lang="en">This project provides general health information and does not replace individual medical diagnosis, prescriptions or treatment.</span>
+${prepareReaderMarkdown(markdown)}
 `
 }
 
@@ -130,7 +109,7 @@ for (const [source, destination] of [
   ['README_en.md', 'README_en.md']
 ]) {
   const markdown = await readFile(join(projectRoot, source), 'utf8')
-  await writeFile(join(outputRoot, destination), markdown.replaceAll('%25', 'percent').replaceAll('(INDEX.md)', '(catalog.md)'))
+  await writeFile(join(outputRoot, destination), prepareReaderMarkdown(markdown))
 }
 
 await writeFile(join(outputRoot, 'index.md'), await homepage())
