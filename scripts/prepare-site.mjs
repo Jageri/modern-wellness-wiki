@@ -2,7 +2,11 @@ import { execFileSync } from 'node:child_process'
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { dirname, join, relative, sep } from 'node:path'
 
+import { loadCatalog, sitePath, auditUrl } from './content-catalog.mjs'
+
 const projectRoot = process.cwd()
+const entries = loadCatalog(projectRoot).entries
+const entryByPath = new Map(entries.flatMap((entry) => [[entry.zh, entry], [entry.en, entry]]))
 const outputRoot = join(projectRoot, '.site-content')
 const siteOutputRoot = join(projectRoot, '.vitepress', 'dist')
 const contentRoots = ['wiki_zh', 'wiki_en', 'docs']
@@ -22,10 +26,6 @@ function modifiedDates() {
 
 const dates = modifiedDates()
 
-function safePath(path) {
-  return path.replaceAll('%', 'percent')
-}
-
 async function homepage() {
   return `---
 title: 现代养生百科 / Modern Wellness Wiki
@@ -39,37 +39,24 @@ description: 基于同行评审研究、逐条审计的中英文健康与长寿�
 
 <span lang="en">An evidence-based bilingual health and longevity knowledge base written for general readers.</span>
 
-请从左侧目录按分类浏览 100 个中文条目；进入 [English introduction](/README_en) 后，左侧会切换为独立的英文目录。
+请从左侧目录按分类浏览 ${entries.length} 个中文条目；进入 [English introduction](/README_en) 后，左侧会切换为独立的英文目录。
 
-<span lang="en">Browse 100 Chinese entries from the sidebar. Open the [English introduction](/README_en) to switch the sidebar to the separate English directory.</span>
+<span lang="en">Browse ${entries.length} Chinese entries from the sidebar. Open the [English introduction](/README_en) to switch the sidebar to the separate English directory.</span>
 
 ## 从这里开始 / Start here
 
 - [中文项目说明 / Chinese introduction](/README)
 - [English introduction / 英文项目说明](/README_en)
 - [中文全量表格索引 / Complete Chinese table index](/catalog)
+- [从日常决定开始 / Start with an everyday decision](/README#先找到与你有关的决定)
+- [条目复审状态 / Entry review status](/docs/tracking/复审状态)
 
-## 本站特点 / What makes this wiki different
+## 维护与反馈 / Maintenance and feedback
 
-- **100 个中文条目、100 个英文条目 / 100 Chinese and 100 English entries**：中英成对维护。<span lang="en">Each entry is maintained as a bilingual pair.</span>
-- **证据可追溯 / Traceable evidence**：重要结论提供原始研究和 PMID。<span lang="en">Key claims link to original studies and PMIDs.</span>
-- **明确不确定性 / Explicit uncertainty**：区分观察性关联、因果证据与证据不足。<span lang="en">Observational associations, causal evidence and insufficient evidence are clearly distinguished.</span>
-- **持续审计 / Ongoing audits**：复核效果量、反面证据、利益冲突、人群适用性与时效性。<span lang="en">Effect sizes, contrary evidence, conflicts of interest, population applicability and recency are reviewed.</span>
-
-## 审核与维护 / Auditing and maintenance
-
-本站公开条目的撰写、审核和持续维护规则，读者可以据此检查每条结论是如何形成的。
-
-<span lang="en">The rules for writing, auditing and maintaining entries are public, so readers can inspect how each conclusion was developed. The standards themselves are currently maintained in Chinese.</span>
-
-| 公开文档 / Public document | 说明 / Purpose |
-| --- | --- |
-| [条目权威性审计标准 / Authority audit standard](/docs/standards/条目权威性审计标准) | 核验引用、数据、反面证据、利益冲突、适用人群与时效性。<br><span lang="en">Checks citations, data, contrary evidence, conflicts, applicability and recency.</span> |
-| [条目完整性审计标准 / Coverage audit standard](/docs/standards/条目完整性审计标准) | 对照权威风险因素和主题范围，识别百科缺口。<br><span lang="en">Finds coverage gaps against authoritative risk-factor and topic frameworks.</span> |
-| [条目撰写标准 / Entry writing standard](/docs/standards/条目撰写标准) | 统一条目结构、证据表达、引用格式与不确定性说明。<br><span lang="en">Defines entry structure, evidence language, citation format and uncertainty disclosure.</span> |
-| [待完善条目清单 / Improvement backlog](/docs/tracking/待完善条目清单) | 公开当前仍需补充或复核的内容。<br><span lang="en">Lists content that still needs expansion or review.</span> |
-| [历史审计档案 / Audit archive](https://github.com/Jageri/modern-wellness-wiki/tree/main/audits) | 查看历次完整性审计、权威性审计及全库复审记录。<br><span lang="en">Browse historical coverage, authority and full-library audit records.</span> |
-| [提交纠错 / Report a correction](https://github.com/Jageri/modern-wellness-wiki/issues/new?title=%E7%BA%A0%E9%94%99%EF%BC%9A) | 报告引用、数字、表述或页面问题。<br><span lang="en">Report a problem with a citation, number, statement or page.</span> |
+- [项目文档与规则分工 / Documentation and rule ownership](/docs/README)
+- [待完善清单 / Improvement backlog](/docs/tracking/待完善条目清单)
+- [历史审计档案 / Audit archive](https://github.com/Jageri/modern-wellness-wiki/tree/main/audits)
+- [提交纠错 / Report a correction](https://github.com/Jageri/modern-wellness-wiki/issues/new)
 
 本项目用于健康科普，不替代医生诊断、处方或个体化医疗建议。
 
@@ -89,12 +76,14 @@ async function copyMarkdownTree(sourceRoot) {
       }
       if (!entry.name.endsWith('.md')) continue
 
-      const relativePath = safePath(relative(projectRoot, sourcePath))
+      const relativePath = sitePath(relative(projectRoot, sourcePath))
       const destination = join(outputRoot, relativePath)
       const markdown = await readFile(sourcePath, 'utf8')
       const sourceRelative = relative(projectRoot, sourcePath).split(sep).join('/')
       const title = markdown.match(/^#\s+(.+)$/m)?.[1].trim() ?? entry.name.replace(/\.md$/, '')
       const isEnglish = sourceRoot === 'wiki_en'
+      const record = entryByPath.get(sourceRelative)
+      if (sourceRoot.startsWith('wiki_') && !record) throw new Error(`Missing catalog entry: ${sourceRelative}`)
       const reviewBlock = sourceRoot.startsWith('wiki_') ? `
 
 ---
@@ -102,7 +91,13 @@ async function copyMarkdownTree(sourceRoot) {
 ## ${isEnglish ? 'Review and corrections' : '审阅与纠错'}
 
 - ${isEnglish ? 'Page last updated' : '页面最近更新'}：${dates.get(sourceRelative) ?? '—'}
-- ${isEnglish ? 'Evidence review' : '证据审阅'}：[${isEnglish ? 'Editorial and evidence standard' : '条目权威性审计标准'}](/docs/standards/条目权威性审计标准)
+- ${isEnglish ? 'Baseline evidence review' : '基础证据复审'}：${record?.evidenceReviewedOn} · [${isEnglish ? 'Entry audit record' : '本条审计记录'}](${record ? auditUrl(record.audit) : ''})
+- ${isEnglish ? 'Next review due' : '下次复审期限'}：${record?.nextReviewDue}
+- ${isEnglish ? 'Review method' : '审阅方式'}：${record?.reviewer} (${record?.reviewerType})${record?.reviewerType === 'ai' ? (isEnglish ? '; AI review, not a signed independent clinical review' : '；AI 审阅，不等同于独立医学专家署名复核') : ''}
+- ${isEnglish ? 'Editorial responsibility' : '维护责任'}：[${isEnglish ? 'Repository maintainers' : '仓库维护者'}](https://github.com/Jageri/modern-wellness-wiki)
+- ${isEnglish ? 'Translation' : '其他语言'}：[${isEnglish ? '中文' : 'English'}](/${record ? encodeURI(sitePath(record[isEnglish ? 'zh' : 'en']).replace(/\.md$/, '')) : ''})
+${(record?.updates ?? []).map((update) => `- ${update.date} · [${isEnglish ? update.scopeEn : update.scope}](${auditUrl(update.audit)})`).join('\n')}
+- ${isEnglish ? 'Review standard' : '复审标准'}：[${isEnglish ? 'Editorial and evidence standard' : '条目权威性审计标准'}](/docs/standards/条目权威性审计标准)
 - ${isEnglish ? 'Report a problem' : '发现问题'}：[${isEnglish ? 'Open a GitHub issue' : '提交 GitHub Issue'}](https://github.com/Jageri/modern-wellness-wiki/issues/new?title=${encodeURIComponent(`${isEnglish ? 'Correction' : '纠错'}: ${title}`)})
 
 ${isEnglish
@@ -110,7 +105,13 @@ ${isEnglish
   : '> 本页提供一般健康科普信息，不替代医生诊断、处方或个体化医疗建议。'}
 ` : ''
       await mkdir(dirname(destination), { recursive: true })
-      await writeFile(destination, `${markdown.replaceAll('%25', 'percent').trimEnd()}${reviewBlock}\n`)
+      const prepared = markdown.replaceAll('%25', 'percent').trimEnd()
+      // Markdown footnotes render at the end; keep their heading beside the notes.
+      const referencesAt = prepared.search(/^##\s+(?:关键)?参考|^##\s+(?:Key )?References/im)
+      const content = reviewBlock && referencesAt >= 0
+        ? `${prepared.slice(0, referencesAt).trimEnd()}${reviewBlock}\n${prepared.slice(referencesAt)}`
+        : `${prepared}${reviewBlock}`
+      await writeFile(destination, `${content}\n`)
     }
   }
 
@@ -129,10 +130,25 @@ for (const [source, destination] of [
   ['README_en.md', 'README_en.md']
 ]) {
   const markdown = await readFile(join(projectRoot, source), 'utf8')
-  await writeFile(join(outputRoot, destination), markdown.replaceAll('%25', 'percent'))
+  await writeFile(join(outputRoot, destination), markdown.replaceAll('%25', 'percent').replaceAll('(INDEX.md)', '(catalog.md)'))
 }
 
 await writeFile(join(outputRoot, 'index.md'), await homepage())
+const reviewRows = entries.map((entry) => {
+  const title = entry.zh.split('/').at(-1).replace(/\.md$/, '')
+  return `| ${entry.id} | [${title}](/${encodeURI(sitePath(entry.zh).replace(/\.md$/, ''))}) | ${entry.evidenceReviewedOn} | ${entry.nextReviewDue} | [审计 / Audit](${auditUrl(entry.audit)}) |`
+}).join('\n')
+await writeFile(join(outputRoot, 'docs/tracking/复审状态.md'), `# 条目复审状态 / Entry review status
+
+共 ${entries.length} 对条目。日期来自已有审计记录，表示基础证据复审日期，不是页面排版或 Git 更新日期。补充核验和引用整理单独记录在各条目页底部，不重置复审期限。
+
+Dates reflect the baseline evidence audit, not formatting changes or Git updates. Scoped updates are listed separately on each entry. AI reviews are not independent signed clinical reviews; repository maintainers retain editorial responsibility.
+
+| ID | 条目 / Entry | 基础复审 / Baseline review | 下次期限 / Next due | 记录 / Record |
+| --- | --- | --- | --- | --- |
+${reviewRows}
+`)
+
 
 await cp(join(projectRoot, 'assets'), join(outputRoot, 'assets'), { recursive: true })
 await mkdir(join(outputRoot, 'public'), { recursive: true })

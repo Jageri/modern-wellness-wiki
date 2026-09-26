@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs'
 import { join, relative, sep } from 'node:path'
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 import { metadataFor, pageLanguage, seoHead } from './seo.mts'
 
 const projectRoot = process.cwd()
@@ -86,7 +87,10 @@ gtag('js', new Date());
 gtag('config', 'G-70W9E03TT7');`]
   ],
   markdown: {
-    lineNumbers: false
+    lineNumbers: false,
+    config(md) {
+      md.use(footnote)
+    }
   },
   themeConfig: {
     logo: '/assets/cover.jpg',

@@ -35,11 +35,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build site
-        run: npm run docs:build
+      - name: Validate content, tests, build and site
+        run: npm run check
 
-      - name: Check SEO metadata
-        run: npm run docs:check
+      - name: Check dependency advisories
+        run: npm audit --audit-level=moderate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

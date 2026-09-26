@@ -1,6 +1,8 @@
 import { execFileSync } from 'node:child_process'
-import { existsSync, readFileSync, readdirSync } from 'node:fs'
-import { join, relative, sep } from 'node:path'
+import { existsSync, readFileSync } from 'node:fs'
+import { join } from 'node:path'
+
+import { loadCatalog, sitePath } from '../scripts/content-catalog.mjs'
 
 const projectRoot = process.cwd()
 const siteRoot = 'https://jageri.github.io/modern-wellness-wiki'
@@ -12,19 +14,9 @@ type EntryMeta = {
   description: string
   language: 'zh-CN' | 'en'
   modified?: string
+  evidenceReviewedOn?: string
   citations: string[]
   alternate?: string
-}
-
-function contentFiles(directory: string): string[] {
-  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
-    const path = join(directory, entry.name)
-    return entry.isDirectory() ? contentFiles(path) : entry.name.endsWith('.md') ? [path] : []
-  })
-}
-
-function safeRelativePath(path: string) {
-  return relative(projectRoot, path).split(sep).join('/').replaceAll('%', 'percent')
 }
 
 function routeFromRelative(path: string) {
@@ -41,6 +33,7 @@ function plainText(markdown: string) {
   return markdown
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/\[\^[^\]]+\]/g, '')
     .replace(/[*_`>#]/g, '')
     .replace(/\s+/g, ' ')
     .trim()
@@ -78,11 +71,6 @@ function citationsFrom(markdown: string) {
   return [...new Set([...markdownLinks, ...autolinks, ...bareLinks])]
 }
 
-function referenceKeys(markdown: string) {
-  const pmids = [...markdown.matchAll(/PMID[:\s]*(\d{6,9})/gi)].map((match) => `pmid:${match[1]}`)
-  return new Set([...pmids, ...citationsFrom(markdown).map((url) => url.toLowerCase())])
-}
-
 function modifiedDates() {
   const output = execFileSync('git', [
     '-c', 'core.quotepath=false', 'log', '--format=@@%ct', '--name-only', '--', 'wiki_zh', 'wiki_en'
@@ -97,49 +85,24 @@ function modifiedDates() {
 }
 
 const dates = modifiedDates()
-const sourceEntries = [
-  ...contentFiles(join(projectRoot, 'wiki_zh')).map((path) => ({ path, language: 'zh-CN' as const })),
-  ...contentFiles(join(projectRoot, 'wiki_en')).map((path) => ({ path, language: 'en' as const }))
-].map(({ path, language }) => {
-  const markdown = readFileSync(path, 'utf8')
-  const relativePath = safeRelativePath(path)
-  return {
-    relativePath,
-    route: routeFromRelative(relativePath),
-    title: markdown.match(/^#\s+(.+)$/m)?.[1].trim() ?? '',
-    description: descriptionFrom(markdown, language),
-    language,
-    modified: dates.get(relative(projectRoot, path).split(sep).join('/')),
-    citations: citationsFrom(markdown),
-    keys: referenceKeys(markdown)
-  }
-})
-
-const chineseEntries = sourceEntries.filter((entry) => entry.language === 'zh-CN')
-const englishEntries = sourceEntries.filter((entry) => entry.language === 'en')
-const alternates = new Map<string, string>()
-
-for (const chinese of chineseEntries) {
-  const matches = englishEntries
-    .map((english) => ({ english, score: [...chinese.keys].filter((key) => english.keys.has(key)).length }))
-    .sort((left, right) => right.score - left.score)
-  if (matches[0]?.score > 0 && matches[0].score > (matches[1]?.score ?? 0)) {
-    alternates.set(chinese.relativePath, matches[0].english.relativePath)
-    alternates.set(matches[0].english.relativePath, chinese.relativePath)
-  }
-}
-
 export const pageMetadata = new Map<string, EntryMeta>()
-for (const entry of sourceEntries) {
-  pageMetadata.set(entry.relativePath, {
-    route: entry.route,
-    title: entry.title,
-    description: entry.description,
-    language: entry.language,
-    modified: entry.modified,
-    citations: entry.citations,
-    alternate: alternates.get(entry.relativePath)
-  })
+for (const entry of loadCatalog(projectRoot).entries) {
+  for (const key of ['zh', 'en'] as const) {
+    const source = entry[key]
+    const markdown = readFileSync(join(projectRoot, source), 'utf8')
+    const language = key === 'zh' ? 'zh-CN' : 'en'
+    const relativePath = sitePath(source)
+    pageMetadata.set(relativePath, {
+      route: routeFromRelative(relativePath),
+      title: markdown.match(/^#\s+(.+)$/m)?.[1].trim() ?? '',
+      description: descriptionFrom(markdown, language),
+      language,
+      modified: dates.get(source),
+      evidenceReviewedOn: entry.evidenceReviewedOn,
+      citations: citationsFrom(markdown),
+      alternate: sitePath(entry[key === 'zh' ? 'en' : 'zh'])
+    })
+  }
 }
 
 function genericMetadata(relativePath: string, title: string, description: string): EntryMeta {
@@ -209,6 +172,7 @@ export function seoHead(context: any) {
       url: canonical,
       inLanguage: meta.language,
       dateModified: meta.modified,
+      lastReviewed: meta.evidenceReviewedOn,
       citation: meta.citations,
       author: {
         '@type': 'Organization',

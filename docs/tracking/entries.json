@@ -1,0 +1,1389 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "001",
+      "zh": "wiki_zh/吃/补剂/~ 褪黑素.md",
+      "en": "wiki_en/Diet/Supplements/~ Melatonin.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/001-褪黑素/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "002",
+      "zh": "wiki_zh/吃/补剂/~ 亚精胺.md",
+      "en": "wiki_en/Diet/Supplements/~ Spermidine.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/002-亚精胺/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "003",
+      "zh": "wiki_zh/医/~ 二甲双胍.md",
+      "en": "wiki_en/Medical/~ Metformin.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/003-二甲双胍/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-17",
+          "scope": "二次抽查与对应整改",
+          "scopeEn": "Second-pass spot check and documented corrections",
+          "audit": "audits/权威性审计记录-2026-09-06-全库复审/SECOND-PASS-SPOT-CHECK-2026-09-17/entries/003-二甲双胍/AUDIT.md"
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "zh": "wiki_zh/境/温度疗法/~ CVD 泡澡.md",
+      "en": "wiki_en/Environment/Temperature Therapy/~ CVD Bathing.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/004-CVD泡澡/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "zh": "wiki_zh/吃/~ 水质.md",
+      "en": "wiki_en/Diet/~ Water Quality.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/005-水质/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "006",
+      "zh": "wiki_zh/形/~ 口腔健康.md",
+      "en": "wiki_en/Body/~ Oral Health.md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/006-口腔健康/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "007",
+      "zh": "wiki_zh/形/~ 刷牙.md",
+      "en": "wiki_en/Body/~ Tooth Brushing.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/007-刷牙/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "zh": "wiki_zh/心/社会连接/~ 信仰归属.md",
+      "en": "wiki_en/Mind/Social Connection/~ Religious Affiliation.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/008-信仰归属/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "009",
+      "zh": "wiki_zh/吃/饮品/~ 茶.md",
+      "en": "wiki_en/Diet/Beverages/~ Tea.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/009-茶/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "010",
+      "zh": "wiki_zh/吃/补剂/~ 维生素D.md",
+      "en": "wiki_en/Diet/Supplements/~ Vitamin D.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/010-维生素D/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "011",
+      "zh": "wiki_zh/医/~ 雷帕霉素.md",
+      "en": "wiki_en/Medical/~ Rapamycin.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/011-雷帕霉素/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "012",
+      "zh": "wiki_zh/吃/补剂/~ NMN与NAD+.md",
+      "en": "wiki_en/Diet/Supplements/~ NMN & NAD+.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/012-NMN与NAD/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "013",
+      "zh": "wiki_zh/吃/补剂/~ 复合维生素.md",
+      "en": "wiki_en/Diet/Supplements/~ Multivitamins.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/013-复合维生素/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "014",
+      "zh": "wiki_zh/吃/补剂/-15% 葡萄糖胺.md",
+      "en": "wiki_en/Diet/Supplements/-15% Glucosamine.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/014-葡萄糖胺/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充并核验 NHANES 阴性死亡队列",
+          "scopeEn": "Verified and added the null NHANES mortality cohort",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "015",
+      "zh": "wiki_zh/吃/补剂/~ 鱼油.md",
+      "en": "wiki_en/Diet/Supplements/~ Fish Oil.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/015-鱼油/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "016",
+      "zh": "wiki_zh/吃/补剂/~ 胶原蛋白.md",
+      "en": "wiki_en/Diet/Supplements/~ Collagen.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/016-胶原蛋白/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "017",
+      "zh": "wiki_zh/吃/补剂/~ 保健品识别方法.md",
+      "en": "wiki_en/Diet/Supplements/~ How to Evaluate Supplements.md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/017-保健品识别方法/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "018",
+      "zh": "wiki_zh/医/~ 益生菌.md",
+      "en": "wiki_en/Medical/~ Probiotics.md",
+      "evidenceReviewedOn": "2026-09-07",
+      "nextReviewDue": "2026-12-07",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/018-益生菌/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "019",
+      "zh": "wiki_zh/医/~ 抗生素.md",
+      "en": "wiki_en/Medical/~ Antibiotics.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/019-抗生素/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "020",
+      "zh": "wiki_zh/医/~ 幽门螺杆菌感染.md",
+      "en": "wiki_en/Medical/~ Helicobacter pylori Infection.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/020-幽门螺杆菌感染/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "021",
+      "zh": "wiki_zh/医/+100~300% 吸烟.md",
+      "en": "wiki_en/Medical/+100~300% Smoking.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/021-吸烟/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "022",
+      "zh": "wiki_zh/医/~ 高血压（未控制）.md",
+      "en": "wiki_en/Medical/~ Hypertension (Uncontrolled).md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/022-高血压/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "023",
+      "zh": "wiki_zh/医/~ 高血糖.md",
+      "en": "wiki_en/Medical/~ Hyperglycemia.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/023-高血糖/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "024",
+      "zh": "wiki_zh/医/~ 高胆固醇.md",
+      "en": "wiki_en/Medical/~ High Cholesterol.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/024-高胆固醇/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "025",
+      "zh": "wiki_zh/医/~ 癌症筛查.md",
+      "en": "wiki_en/Medical/~ Cancer Screening.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/025-癌症筛查/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "026",
+      "zh": "wiki_zh/医/~ 免疫接种.md",
+      "en": "wiki_en/Medical/~ Vaccination.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/026-免疫接种/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "027",
+      "zh": "wiki_zh/医/~ 新冠与传染病.md",
+      "en": "wiki_en/Medical/~ COVID-19 & Infectious Diseases.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/027-新冠与传染病/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "028",
+      "zh": "wiki_zh/形/~ 骨质疏松.md",
+      "en": "wiki_en/Body/~ Osteoporosis.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/028-骨质疏松/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "029",
+      "zh": "wiki_zh/形/~ 肌肉流失.md",
+      "en": "wiki_en/Body/~ Muscle Loss.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/029-肌肉流失/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "030",
+      "zh": "wiki_zh/形/~ 肥胖.md",
+      "en": "wiki_en/Body/~ Obesity.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/030-肥胖/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "031",
+      "zh": "wiki_zh/睡/~ 睡眠呼吸暂停.md",
+      "en": "wiki_en/Sleep/~ Sleep Apnea.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/031-睡眠呼吸暂停/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "032",
+      "zh": "wiki_zh/睡/~ 睡眠不足.md",
+      "en": "wiki_en/Sleep/~ Insufficient Sleep.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/032-睡眠不足/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "033",
+      "zh": "wiki_zh/心/情绪/~ 抑郁.md",
+      "en": "wiki_en/Mind/Emotions/~ Depression.md",
+      "evidenceReviewedOn": "2026-09-08",
+      "nextReviewDue": "2026-12-08",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/033-抑郁/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "034",
+      "zh": "wiki_zh/心/情绪/+102% 双相障碍.md",
+      "en": "wiki_en/Mind/Emotions/+102% Bipolar Disorder.md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/034-双相障碍/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "035",
+      "zh": "wiki_zh/心/情绪/+69% 疑病症（病理性健康焦虑）.md",
+      "en": "wiki_en/Mind/Emotions/+69% Hypochondriasis (Pathological Health Anxiety).md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/035-健康焦虑/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "036",
+      "zh": "wiki_zh/心/社会连接/+32% 社交孤立.md",
+      "en": "wiki_en/Mind/Social Connection/+32% Social Isolation.md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/036-社交孤立/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "037",
+      "zh": "wiki_zh/心/社会连接/-15~20% 目的感.md",
+      "en": "wiki_en/Mind/Social Connection/-15~20% Sense of Purpose.md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/037-目的感/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "038",
+      "zh": "wiki_zh/心/情绪/~ 压力管理.md",
+      "en": "wiki_en/Mind/Emotions/~ Stress Management.md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/038-压力管理/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "039",
+      "zh": "wiki_zh/心/情绪/~ 正念冥想.md",
+      "en": "wiki_en/Mind/Emotions/~ Mindfulness Meditation.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/039-正念冥想/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "040",
+      "zh": "wiki_zh/心/情绪/~ 多巴胺管理.md",
+      "en": "wiki_en/Mind/Emotions/~ Dopamine Management.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/040-多巴胺管理/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "041",
+      "zh": "wiki_zh/境/~ 空气污染.md",
+      "en": "wiki_en/Environment/~ Air Pollution.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/041-空气污染/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "042",
+      "zh": "wiki_zh/境/~ 噪音污染.md",
+      "en": "wiki_en/Environment/~ Noise Pollution.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/042-噪音污染/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "043",
+      "zh": "wiki_zh/境/~ 微塑料.md",
+      "en": "wiki_en/Environment/~ Microplastics.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/043-微塑料/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "044",
+      "zh": "wiki_zh/境/~ 晒太阳.md",
+      "en": "wiki_en/Environment/~ Sun Exposure.md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/044-晒太阳/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "045",
+      "zh": "wiki_zh/境/温度疗法/~ 冷水澡.md",
+      "en": "wiki_en/Environment/Temperature Therapy/~ Cold Showers.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/045-冷水澡/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "046",
+      "zh": "wiki_zh/境/温度疗法/~ 芬兰式干桑拿.md",
+      "en": "wiki_en/Environment/Temperature Therapy/~ Finnish-Style Dry Sauna.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/046-干桑拿/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "047",
+      "zh": "wiki_zh/境/温度疗法/~ 体温调节.md",
+      "en": "wiki_en/Environment/Temperature Therapy/~ Thermoregulation.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/047-体温调节/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "048",
+      "zh": "wiki_zh/住/~ 高温防护.md",
+      "en": "wiki_en/Housing/~ Heat Protection.md",
+      "evidenceReviewedOn": "2026-09-06",
+      "nextReviewDue": "2026-12-06",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/048-高温防护/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "049",
+      "zh": "wiki_zh/睡/~ 睡眠环境.md",
+      "en": "wiki_en/Sleep/~ Sleep Environment.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/049-睡眠环境/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "050",
+      "zh": "wiki_zh/睡/~ 蓝光.md",
+      "en": "wiki_en/Sleep/~ Blue Light.md",
+      "evidenceReviewedOn": "2026-09-09",
+      "nextReviewDue": "2026-12-09",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/050-蓝光/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "051",
+      "zh": "wiki_zh/吃/饮品/~ 过量饮酒.md",
+      "en": "wiki_en/Diet/Beverages/~ Excessive Alcohol.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/051-过量饮酒/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "052",
+      "zh": "wiki_zh/吃/饮品/+10~20% 含糖饮料.md",
+      "en": "wiki_en/Diet/Beverages/+10~20% Sugary Drinks.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/052-含糖饮料/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-17",
+          "scope": "二次抽查与对应整改",
+          "scopeEn": "Second-pass spot check and documented corrections",
+          "audit": "audits/权威性审计记录-2026-09-06-全库复审/SECOND-PASS-SPOT-CHECK-2026-09-17/entries/052-含糖饮料/REVIEW.md"
+        }
+      ]
+    },
+    {
+      "id": "053",
+      "zh": "wiki_zh/吃/饮品/~ 果汁.md",
+      "en": "wiki_en/Diet/Beverages/~ Fruit Juice.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/053-果汁/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "054",
+      "zh": "wiki_zh/吃/饮品/~ 咖啡.md",
+      "en": "wiki_en/Diet/Beverages/~ Coffee.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/054-咖啡/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "055",
+      "zh": "wiki_zh/吃/饮品/~ 牛奶.md",
+      "en": "wiki_en/Diet/Beverages/~ Milk.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/055-牛奶/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "056",
+      "zh": "wiki_zh/吃/饮食模式/+12% 红肉过量.md",
+      "en": "wiki_en/Diet/Dietary Patterns/+12% Excessive Red Meat.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/056-红肉过量/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "057",
+      "zh": "wiki_zh/吃/饮食模式/~ 加工肉类.md",
+      "en": "wiki_en/Diet/Dietary Patterns/~ Processed Meat.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/057-加工肉类/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "058",
+      "zh": "wiki_zh/吃/饮食模式/+15~21% 超加工食品.md",
+      "en": "wiki_en/Diet/Dietary Patterns/+15~21% Ultra-Processed Foods.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/058-超加工食品/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "059",
+      "zh": "wiki_zh/吃/饮食模式/~ 油炸食品.md",
+      "en": "wiki_en/Diet/Dietary Patterns/~ Fried Foods.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/059-油炸食品/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "060",
+      "zh": "wiki_zh/吃/~ 高盐.md",
+      "en": "wiki_en/Diet/~ High Salt.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/060-高盐/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "061",
+      "zh": "wiki_zh/吃/饮食模式/~ 膳食纤维不足.md",
+      "en": "wiki_en/Diet/Dietary Patterns/~ Insufficient Dietary Fiber.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/061-膳食纤维不足/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "062",
+      "zh": "wiki_zh/吃/饮食模式/-13% 蔬果摄入.md",
+      "en": "wiki_en/Diet/Dietary Patterns/-13% Fruit & Vegetable Intake.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/062-蔬果摄入/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "063",
+      "zh": "wiki_zh/吃/饮食模式/~ 白肉.md",
+      "en": "wiki_en/Diet/Dietary Patterns/~ White Meat.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/063-白肉/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "064",
+      "zh": "wiki_zh/吃/~ 坚果.md",
+      "en": "wiki_en/Diet/~ Nuts.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/064-坚果/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "065",
+      "zh": "wiki_zh/吃/~ 辣椒.md",
+      "en": "wiki_en/Diet/~ Chili Peppers.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/065-辣椒/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "066",
+      "zh": "wiki_zh/吃/~ 槟榔.md",
+      "en": "wiki_en/Diet/~ Betel Nut.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/066-槟榔/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "067",
+      "zh": "wiki_zh/吃/~ 代糖.md",
+      "en": "wiki_en/Diet/~ Artificial Sweeteners.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/067-代糖/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "068",
+      "zh": "wiki_zh/吃/~ 鸡蛋.md",
+      "en": "wiki_en/Diet/~ Eggs.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/068-鸡蛋/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "069",
+      "zh": "wiki_zh/吃/饮食模式/~ 热量限制.md",
+      "en": "wiki_en/Diet/Dietary Patterns/~ Caloric Restriction.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/069-热量限制/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-17",
+          "scope": "二次抽查与对应整改",
+          "scopeEn": "Second-pass spot check and documented corrections",
+          "audit": "audits/权威性审计记录-2026-09-06-全库复审/SECOND-PASS-SPOT-CHECK-2026-09-17/entries/069-热量限制/REVIEW.md"
+        }
+      ]
+    },
+    {
+      "id": "070",
+      "zh": "wiki_zh/吃/饮食模式/~ 碳水化合物.md",
+      "en": "wiki_en/Diet/Dietary Patterns/~ Carbohydrates.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/070-碳水化合物/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "071",
+      "zh": "wiki_zh/吃/饮食模式/~ 蛋白质摄入.md",
+      "en": "wiki_en/Diet/Dietary Patterns/~ Protein Intake.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/071-蛋白质摄入/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "072",
+      "zh": "wiki_zh/吃/饮食模式/~ 饮食脂肪质量.md",
+      "en": "wiki_en/Diet/Dietary Patterns/~ Dietary Fat Quality.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/072-饮食脂肪质量/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "073",
+      "zh": "wiki_zh/吃/~ 肠道菌群.md",
+      "en": "wiki_en/Diet/~ Gut Microbiota.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/073-肠道菌群/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "074",
+      "zh": "wiki_zh/吃/饮品/~ 生可可粉.md",
+      "en": "wiki_en/Diet/Beverages/~ Raw Cocoa Powder.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/074-生可可粉/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "075",
+      "zh": "wiki_zh/吃/食品安全/~ 食品添加剂.md",
+      "en": "wiki_en/Diet/Food Safety/~ Food Additives.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/075-食品添加剂/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "076",
+      "zh": "wiki_zh/动/-15% 力量训练.md",
+      "en": "wiki_en/Exercise/-15% Strength Training.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/076-力量训练/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "077",
+      "zh": "wiki_zh/动/有氧/~ 运动多样性.md",
+      "en": "wiki_en/Exercise/~ Exercise Variety.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/077-运动多样性/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "078",
+      "zh": "wiki_zh/动/有氧/~ HIIT与有氧.md",
+      "en": "wiki_en/Exercise/Cardio/~ HIIT vs Aerobic.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/078-HIIT与有氧/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "079",
+      "zh": "wiki_zh/动/有氧/~ 挥拍运动.md",
+      "en": "wiki_en/Exercise/Cardio/~ Racket Sports.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/079-挥拍运动/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "080",
+      "zh": "wiki_zh/动/日常/-17% 步行.md",
+      "en": "wiki_en/Exercise/Daily/-17% Walking.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/080-步行/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "081",
+      "zh": "wiki_zh/动/日常/~ 缺乏运动.md",
+      "en": "wiki_en/Exercise/Daily/~ Physical Inactivity.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/081-缺乏运动/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "082",
+      "zh": "wiki_zh/动/日常/~ 久坐.md",
+      "en": "wiki_en/Exercise/Daily/~ Sedentary Behavior.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/082-久坐/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "083",
+      "zh": "wiki_zh/动/有氧/~ 游泳.md",
+      "en": "wiki_en/Exercise/Cardio/~ Swimming.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/083-游泳/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "084",
+      "zh": "wiki_zh/动/有氧/~ VO2 max.md",
+      "en": "wiki_en/Exercise/Cardio/~ VO2 Max.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/084-VO2-max/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "085",
+      "zh": "wiki_zh/动/日常/~ 做家务.md",
+      "en": "wiki_en/Exercise/Daily/~ Housework.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/085-做家务/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "086",
+      "zh": "wiki_zh/动/日常/~ 平衡与稳定性训练.md",
+      "en": "wiki_en/Exercise/Daily/~ Balance and Stability Training.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/086-平衡与稳定性训练/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "087",
+      "zh": "wiki_zh/动/日常/~ 拉伸.md",
+      "en": "wiki_en/Exercise/Daily/~ Stretching.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/087-拉伸/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "088",
+      "zh": "wiki_zh/动/日常/~ 站立办公.md",
+      "en": "wiki_en/Exercise/Daily/~ Standing Desk.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/088-站立办公/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "089",
+      "zh": "wiki_zh/动/日常/~ 呼吸训练.md",
+      "en": "wiki_en/Exercise/Daily/~ Breathing Exercises.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/089-呼吸训练/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "090",
+      "zh": "wiki_zh/形/~ 骨关节炎.md",
+      "en": "wiki_en/Body/~ Osteoarthritis.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/090-骨关节炎/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "091",
+      "zh": "wiki_zh/形/~ 视力保护.md",
+      "en": "wiki_en/Body/~ Vision Protection.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/091-视力保护/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "092",
+      "zh": "wiki_zh/形/~ 听力保护.md",
+      "en": "wiki_en/Body/~ Hearing Protection.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/092-听力保护/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-17",
+          "scope": "二次抽查与对应整改",
+          "scopeEn": "Second-pass spot check and documented corrections",
+          "audit": "audits/权威性审计记录-2026-09-06-全库复审/SECOND-PASS-SPOT-CHECK-2026-09-17/entries/092-听力保护/REVIEW.md"
+        }
+      ]
+    },
+    {
+      "id": "093",
+      "zh": "wiki_zh/形/~ 衰老轨迹.md",
+      "en": "wiki_en/Body/~ Aging Trajectories.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/093-衰老轨迹/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "094",
+      "zh": "wiki_zh/心/~ 音乐与痴呆.md",
+      "en": "wiki_en/Mind/~ Music and Dementia.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/094-音乐与痴呆/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "095",
+      "zh": "wiki_zh/睡/~ 午睡.md",
+      "en": "wiki_en/Sleep/~ Napping.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/095-午睡/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "scope": "补充既有文献的段内引用标记；未重新全量检索",
+          "scopeEn": "Added in-text anchors to existing sources; no full literature refresh",
+          "audit": "audits/质量评估-2026-09-26/REMEDIATION.md"
+        }
+      ]
+    },
+    {
+      "id": "096",
+      "zh": "wiki_zh/住/~ 家庭应急准备.md",
+      "en": "wiki_en/Housing/~ Home Emergency Preparedness.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/096-家庭应急准备/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "097",
+      "zh": "wiki_zh/吃/食品安全/~ 孕期饮食安全.md",
+      "en": "wiki_en/Diet/Food Safety/~ Pregnancy Food Safety.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/097-孕期饮食安全/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "098",
+      "zh": "wiki_zh/行/~ 驾驶疲劳.md",
+      "en": "wiki_en/Travel/~ Drowsy Driving.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/098-驾驶疲劳/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    },
+    {
+      "id": "099",
+      "zh": "wiki_zh/财/~ 医疗保险配置.md",
+      "en": "wiki_en/Wealth/~ Medical Insurance.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/099-医疗保险配置/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers",
+      "updates": [
+        {
+          "date": "2026-09-17",
+          "scope": "二次抽查与对应整改",
+          "scopeEn": "Second-pass spot check and documented corrections",
+          "audit": "audits/权威性审计记录-2026-09-06-全库复审/SECOND-PASS-SPOT-CHECK-2026-09-17/entries/099-医疗保险配置/REVIEW.md"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "zh": "wiki_zh/财/~ 社会经济地位.md",
+      "en": "wiki_en/Wealth/~ Socioeconomic Status.md",
+      "evidenceReviewedOn": "2026-09-16",
+      "nextReviewDue": "2026-12-16",
+      "audit": "audits/权威性审计记录-2026-09-06-全库复审/entries/100-社会经济地位/AUDIT.md",
+      "status": "reviewed",
+      "reviewer": "AI audit agents",
+      "reviewerType": "ai",
+      "responsibility": "repository-maintainers"
+    }
+  ]
+}

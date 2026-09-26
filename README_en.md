@@ -4,114 +4,38 @@
 
 ![Modern Wellness Wiki](assets/cover.jpg)
 
-An evidence-based knowledge base on all-cause mortality.
+A bilingual health and longevity knowledge base for general readers, explaining research findings, their limits and relevance to everyday decisions.
 
-## Project Structure
+## Start with a decision that matters to you
+
+Read the population limits and practical guidance first, then the evidence and limitations:
+
+- Everyday habits: [walking](wiki_en/Exercise/Daily/-17%25%20Walking.md), [strength training](wiki_en/Exercise/-15%25%20Strength%20Training.md), and [sleep](wiki_en/Sleep/~%20Insufficient%20Sleep.md).
+- Existing risks: [smoking](wiki_en/Medical/+100~300%25%20Smoking.md), [blood pressure](wiki_en/Medical/~%20Hypertension%20%28Uncontrolled%29.md), and [cholesterol](wiki_en/Medical/~%20High%20Cholesterol.md).
+- Screening and supplements: [cancer screening](wiki_en/Medical/~%20Cancer%20Screening.md) and [evaluating supplements](wiki_en/Diet/Supplements/~%20How%20to%20Evaluate%20Supplements.md).
+
+## Browse and understand entries
+
+Use the [Chinese catalog](INDEX.md) or the website sidebar to browse entries by topic and language. Read conclusions alongside population limits, practical guidance and original sources.
+
+Filename percentages are not rankings of benefits across entries. See the [filename rules](docs/standards/条目撰写标准.md#文件命名) and [evidence-rating standard](docs/standards/证据评级规范.md) for definitions; these editorial standards are maintained in Chinese.
+
+## Project structure
 
 ```text
-wiki_zh/   Chinese wiki entries
-wiki_en/   English wiki entries
-docs/      Writing standards, audit standards, and maintenance lists
-audits/    Historical completeness and authority audit records
-assets/    Project-level static assets used by the README and documentation
+wiki_zh/   Chinese entries
+wiki_en/   English entries
+docs/      Current standards and maintenance guides
+audits/    Historical audits and correction records
+assets/    Project static assets
 ```
 
----
+## Contributing and maintenance
 
-## Why We Built This
+Issues and PRs for corrections, evidence updates and new entries are welcome. The [project documentation](docs/README.md) identifies the authoritative document for each rule; the [maintenance guide](docs/tracking/维护说明.md) covers workflow and validation commands; the [backlog](docs/tracking/待完善条目清单.md) tracks proposed topics. These documents are maintained in Chinese.
 
-There's too much information online about "how to live longer" — wellness influencers, supplement ads, clickbait headlines cherry-picking study results, contradictory dietary advice. It's nearly impossible for ordinary people to tell real evidence from noise.
+This project provides general health information, not individualized medical advice. Each entry's review section identifies its audit record and review responsibility.
 
-We wanted a longevity guide that **anyone can understand and no expert can poke holes in**.
+## Acknowledgments and license
 
-### Core Principle
-
-**All information comes from authoritative research, with sources cited.** This encyclopedia does not fabricate, speculate, or "reasonably extrapolate." Every number, every conclusion can be traced back to a specific peer-reviewed paper. When there is no reliable evidence, we clearly state "insufficient evidence" or "no conclusive finding" — which is itself an accurate conclusion.
-
-## Goals
-
-- **Cover all factors that significantly affect all-cause mortality** — diet, exercise, sleep, environment, psychology, medicine, supplements
-- **Every entry withstands scrutiny** — source quality, contradictory evidence, conflicts of interest, population applicability — audited item by item
-- **Honest about uncertainty** — "no conclusive finding" is a conclusion too
-
-## How to Read
-
-### Browse by Category
-
-The `wiki_en/` directory is organized by topic:
-
-| Directory | Content |
-|-----------|---------|
-| Exercise/ | Physical activity, daily movement, cardiorespiratory fitness |
-| Medical/ | Chronic disease markers, medications, screening, vaccines |
-| Diet/ | Food, nutrition, beverages, supplements, dietary patterns |
-| Environment/ | Air, noise, temperature, social environment |
-| Body/ | Physical state: obesity, muscle, oral health, senses |
-| Mind/ | Emotions, social connection, sense of purpose |
-| Sleep/ | Sleep duration, quality, circadian rhythm |
-
-Subdirectories (e.g., `Diet/Supplements/`, `Exercise/Cardio/`) group multiple entries on the same topic.
-
-### Sort by Mortality Impact
-
-Each filename is prefixed with its mortality impact. Sort by name in your file manager to see at a glance:
-
-- `+100~300% Smoking.md` → Most harmful
-- `-47% Racket Sports.md` → Most beneficial
-- `~ Vitamin D.md` → Effect uncertain
-
-### Entry Structure
-
-Each entry contains:
-- **Mortality Impact**: Specific effect on all-cause mortality (number or "uncertain")
-- **Evidence Level**: 1-5 stars, reflecting evidence strength
-- **Actionability**: What you can do about it
-- **Conclusion**: One-sentence core takeaway
-- **Evidence**: Key studies supporting the conclusion
-- **Do**: Specific action items
-- **References**: Links to original papers
-
-## How We Ensure Quality
-
-The above principles are enforced through the following mechanisms:
-
-### Completeness Audit
-
-Systematically identify missing entries by cross-referencing 7+ authoritative sources (HowToLiveLonger, Blue Zones, Peter Attia's *Outlive*, GBD 2019, WHO, Examine.com, Huberman Lab, etc.).
-
-- Audit standards: `docs/standards/条目完整性审计标准.md`
-- Audit records: `audits/完整性审计记录/`
-
-### Authority Audit
-
-Every entry must pass 10 checks:
-
-1. **Source Quality** — Peer-reviewed journal? Large RCT/meta-analysis?
-2. **Conclusion Consistency** — Consistent with mainstream literature?
-3. **Contradictory Evidence** — Are there equally rigorous opposing studies?
-4. **Effect Size Accuracy** — Relative vs. absolute risk confusion?
-5. **Conflict of Interest** — Funded by interested parties?
-6. **Causation vs. Correlation** — Is correlation being stated as causation?
-7. **Population Applicability** — Age, sex, ethnicity, health status of study populations
-8. **Study Limitations** — Bias, sample size, follow-up duration disclosed?
-9. **Publication Bias** — Are negative results being ignored?
-10. **Currency** — Are there newer studies that supersede the cited evidence?
-
-- Audit standards: `docs/standards/条目权威性审计标准.md`
-- Audit records: `audits/权威性审计记录-*/`
-
-### Entry Writing Standards
-
-Format, evidence requirements, and uncertainty labeling conventions: `docs/standards/条目撰写标准.md`.
-
-## Contributing
-
-Issues and PRs are welcome. New entries must pass both completeness and authority audits before merging.
-
-## Acknowledgments
-
-This project was inspired by [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) (Programmer's Guide to Living Longer), expanded into a systematic longevity knowledge base.
-
-## License
-
-[CC BY-SA 4.0](LICENSE)
+Inspired by [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger). Content is licensed under [CC BY-SA 4.0](LICENSE).
